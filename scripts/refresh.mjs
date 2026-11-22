@@ -106,6 +106,8 @@ const bilingual = object({ en: text, zh: text });
 const schema = object({
   type: enumeration("red", "white", "rose", "sparkling", "other", "exclude"),
   region: bilingual,
+  vintage: nullable(text),
+  lot: nullable(text),
   officialNotes: bilingual,
   reputation: bilingual,
   originNotes: nullable(bilingual),
@@ -236,7 +238,10 @@ async function refresh() {
     if (analysis.wine.type === "exclude") continue;
     const { description: _description, image: _image, ...facts } = listing;
     const wine = { ...facts, ...analysis.wine, listed: "current", image: image || previousWine?.image };
-    if (previousWine?.name === wine.name) {
+    const differentRelease = ["vintage", "lot"].some((key) =>
+      wine[key] && previousWine?.[key] && wine[key] !== previousWine[key]);
+    if (previousWine?.name === wine.name && !differentRelease) {
+      if (previousWine.reserveTier) wine.reserveTier = previousWine.reserveTier;
       const preservedRoles = new Set();
       const evidenceRank = { style: 0, possible: 1, sameProducer: 2, confirmed: 3 };
       if (previousWine.comparison && (!wine.comparison ||

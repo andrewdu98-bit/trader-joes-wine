@@ -39,6 +39,11 @@
       <div class="controls">
         <div class="filters" role="group" aria-label="Wine style"></div>
         <label class="reserve-toggle"><input type="checkbox" id="reserve"><span data-copy="reserveOnly">Trader Joe’s Reserve</span></label>
+        <label class="sort"><span class="visually-hidden" data-copy="tierLabel">Filter by Reserve tier</span>
+          <select id="reserve-tier">
+            <option value="" data-copy="anyTier">Any Reserve tier</option>
+          </select>
+        </label>
         <label class="reserve-toggle"><input type="checkbox" id="current-only"><span data-copy="currentOnly">Currently listed</span></label>
         <label class="search"><span class="visually-hidden" data-copy="searchLabel">Search wines</span>
           <input type="search" id="search" placeholder="Search wine or region">
