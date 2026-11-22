@@ -4,9 +4,13 @@ const copy = {
     headline: ["Good wine.", "Grocery prices."],
     intro: "Find your next bottle with tasting notes, premium comparisons, and AI scores informed by published reviews.",
     browse: "Browse the aisle", searchLabel: "Search wines", search: "Search wine or region", sortLabel: "Sort wines",
-    topRated: "Highest rated", lowPrice: "Lowest price", byName: "Name A–Z",
+    catalogSort: "Catalog order", topRated: "Highest rated", lowPrice: "Lowest price", byName: "Name A–Z",
     footer: "Independent guide. Prices and availability vary by store.", source: "Trader Joe’s wine search",
-    sample: "Sample catalog", searchCoverage: "Official wine search", categoryCoverage: "Official online category",
+    sample: "Sample catalog", snapshot: "Official listings and catalog archive",
+    reserveOnly: "Trader Joe’s Reserve", archive: "Archived listing", reserve: "Reserve",
+    petit: "Petit Reserve", grand: "Grand Reserve", platinum: "Platinum Reserve", diamond: "Diamond Reserve", growers: "Grower’s Reserve",
+    totalWine: "View at Total Wine", viewProducer: "View comparison wine", pendingNotes: "Tasting notes pending", currentOnly: "Currently listed",
+    styleNote: "Comparable in style. An origin link is unconfirmed.", searchCoverage: "Official wine search", categoryCoverage: "Official online category",
     updated: "Updated", all: "All wines", red: "Red", white: "White", rose: "Rosé", sparkling: "Sparkling", other: "Other wine",
     count: (n) => `${n} ${n === 1 ? "wine" : "wines"}`,
     loading: "Loading wines…", failed: "The wine catalog could not be loaded. Try refreshing this page.",
@@ -14,7 +18,7 @@ const copy = {
     score: "AI score", unrated: "Unrated", confidence: "Evidence confidence",
     low: "Low", medium: "Moderate", high: "High", close: "Close",
     officialNotes: "Tasting notes", officialDescription: "Trader Joe’s description", reputation: "What it’s known for",
-    confirmed: "Confirmed original bottling", possible: "Possible origin", style: "Premium style comparison",
+    sameProducer: "Premium wine from the same producer", confirmed: "Confirmed original bottling", possible: "Possible origin", style: "Premium style comparison",
     noComparison: "No sourced premium comparison yet.", sources: "Sources", official: "Trader Joe’s product page",
     review: "Review", comparison: "Comparison", origin: "Origin", language: "Language", wineStyle: "Wine style",
   },
@@ -23,9 +27,13 @@ const copy = {
     headline: ["好酒入口，", "平价入手。"],
     intro: "参考品鉴笔记、高价酒款对比和基于公开评论的 AI 评分，挑选下一瓶酒。",
     browse: "浏览酒款", searchLabel: "搜索酒款", search: "搜索酒名或产区", sortLabel: "排序酒款",
-    topRated: "评分从高到低", lowPrice: "价格从低到高", byName: "按英文酒名排序",
+    catalogSort: "目录顺序", topRated: "评分从高到低", lowPrice: "价格从低到高", byName: "按英文酒名排序",
     footer: "独立指南。价格与供货因门店而异。", source: "Trader Joe’s 官方酒款搜索",
-    sample: "样本酒单", searchCoverage: "官方葡萄酒搜索", categoryCoverage: "官方线上分类",
+    sample: "样本酒单", snapshot: "官网在列与历史目录",
+    reserveOnly: "Trader Joe’s Reserve 系列", archive: "历史目录", reserve: "Reserve",
+    petit: "Petit Reserve", grand: "Grand Reserve", platinum: "Platinum Reserve", diamond: "Diamond Reserve", growers: "Grower’s Reserve",
+    totalWine: "查看 Total Wine 商品页", viewProducer: "查看参考酒款", pendingNotes: "品鉴笔记待补充", currentOnly: "仅看当前在列",
+    styleNote: "同风格参考，尚无证据表明两款酒同源。", searchCoverage: "官方葡萄酒搜索", categoryCoverage: "官方线上分类",
     updated: "更新于", all: "全部", red: "红葡萄酒", white: "白葡萄酒", rose: "桃红", sparkling: "起泡酒", other: "其他酒款",
     count: (n) => `${n} 款酒`,
     loading: "正在加载酒单…", failed: "酒单加载失败，请刷新页面重试。",
@@ -33,7 +41,7 @@ const copy = {
     score: "AI 评分", unrated: "暂无评分", confidence: "证据可信度",
     low: "低", medium: "中", high: "高", close: "关闭",
     officialNotes: "品鉴笔记", officialDescription: "Trader Joe’s 官方描述", reputation: "口碑与特色",
-    confirmed: "已证实的原版酒款", possible: "可能的来源", style: "高价同风格参考",
+    sameProducer: "同一酒庄的高端酒款", confirmed: "已证实的原版酒款", possible: "可能的来源", style: "高价同风格参考",
     noComparison: "暂无有来源支持的高价参考酒款。", sources: "参考来源", official: "Trader Joe’s 官方产品页",
     review: "品鉴评论", comparison: "对比参考", origin: "来源调查", language: "语言", wineStyle: "葡萄酒类型",
   },
@@ -75,19 +83,59 @@ function verifiedLink(label, url) {
   }
 }
 
+function reserveTier(wine) {
+  const match = wine.name.match(/^(?:Trader Joe[’']s\s+)?(?:(Petit|Grand|Platinum|Plat|Diamond|Grower[’']s)\s+)?(?:Reserve|Rsv)\b/i);
+  if (!match) return "";
+  const tier = match[1]?.toLowerCase() || "reserve";
+  return ({ plat: "platinum", "grower’s": "growers", "grower's": "growers" })[tier] || tier;
+}
+
+function bottlePhoto(url, name) {
+  const photo = verifiedLink(name, url);
+  if (!photo) return null;
+  const image = document.createElement("img");
+  image.src = photo.href;
+  image.alt = name;
+  image.loading = "lazy";
+  image.referrerPolicy = "no-referrer";
+  return image;
+}
+
 function renderDetails(wine) {
   const t = words();
   const title = element("h2", wine.name);
   title.id = "wine-title";
   const body = [
     title,
-    element("p", [t[wine.type], localized(wine.region), priceText(wine), wine.size].filter(Boolean).join(" · ")),
-    element("h3", t.officialNotes), element("p", localized(wine.officialNotes)),
-    element("h3", t.reputation), element("p", localized(wine.reputation)),
-    element("h3", wine.comparison ? t[wine.comparison.kind] : t.style),
+    element("p", [t[wine.type], t[reserveTier(wine)], localized(wine.region), priceText(wine), wine.size, wine.listed === "archive" && t.archive].filter(Boolean).join(" · ")),
   ];
+  const official = verifiedLink(t.official, wine.url);
+  if (official) body.push(official);
+  for (const key of ["officialNotes", "reputation"]) {
+    if (localized(wine[key])) body.push(element("h3", t[key]), element("p", localized(wine[key])));
+  }
+  body.push(element("h3", wine.comparison ? t[wine.comparison.kind] : t.style));
   if (wine.comparison) {
-    body.push(element("strong", wine.comparison.name), element("p", localized(wine.comparison.note)));
+    const comparison = wine.comparison;
+    const panel = element("div", "");
+    panel.className = "comparison-panel";
+    const photo = bottlePhoto(comparison.image, comparison.name);
+    if (photo) {
+      photo.addEventListener("error", () => photo.remove());
+      panel.append(photo);
+    }
+    const summary = element("div", "");
+    summary.append(element("strong", comparison.name), element("p", localized(comparison.note)));
+    if (comparison.kind === "style") {
+      const note = element("p", t.styleNote);
+      note.className = "comparison-note";
+      summary.append(note);
+    }
+    const retailer = verifiedLink(t.totalWine, comparison.totalWineUrl);
+    const producer = verifiedLink(t.viewProducer, comparison.productUrl);
+    if (retailer || producer) summary.append(retailer || producer);
+    panel.append(summary);
+    body.push(panel);
   } else {
     body.push(element("p", t.noComparison));
   }
@@ -120,10 +168,7 @@ function renderCard(wine) {
   const art = card.querySelector(".wine-art");
   art.dataset.style = wine.type;
   if (wine.image && verifiedLink(wine.name, wine.image)) {
-    const image = document.createElement("img");
-    image.src = wine.image;
-    image.alt = wine.name;
-    image.loading = "lazy";
+    const image = bottlePhoto(wine.image, wine.name);
     image.addEventListener("error", () => {
       image.remove();
       art.setAttribute("aria-hidden", "true");
@@ -134,7 +179,18 @@ function renderCard(wine) {
   card.querySelector(".wine-style").textContent = words()[wine.type];
   card.querySelector(".wine-region").textContent = localized(wine.region);
   card.querySelector("h3").textContent = wine.name;
-  card.querySelector(".wine-notes").textContent = localized(wine.officialNotes);
+  const tier = card.querySelector(".wine-tier");
+  const labels = [words()[reserveTier(wine)], wine.listed === "archive" && words().archive].filter(Boolean);
+  tier.hidden = !labels.length;
+  tier.textContent = labels.join(" · ");
+  const notes = card.querySelector(".wine-notes");
+  notes.textContent = localized(wine.officialNotes) || localized(wine.reputation) || localized(wine.comparison?.note) || words().pendingNotes;
+  const official = card.querySelector(".official-link");
+  if (verifiedLink(wine.name, wine.url)) {
+    official.href = wine.url;
+    official.textContent = "Trader Joe’s";
+    official.setAttribute("aria-label", `${words().official} · ${wine.name}`);
+  } else official.remove();
   card.querySelector(".price").textContent = priceText(wine);
   card.querySelector(".score").textContent = scoreText(wine);
   const button = card.querySelector(".view");
@@ -154,7 +210,7 @@ function renderCatalog() {
     $("#count").textContent = loadFailed ? t.failed : t.loading;
     return;
   }
-  const label = { sample: t.sample, search: t.searchCoverage, category: t.categoryCoverage }[catalog.coverage];
+  const label = { sample: t.sample, search: t.searchCoverage, category: t.categoryCoverage, snapshot: t.snapshot }[catalog.coverage];
   const updated = catalog.updatedAt && new Intl.DateTimeFormat(browserLocales[language], {
     dateStyle: "medium", timeZone: "America/Detroit",
   }).format(new Date(catalog.updatedAt));
@@ -162,10 +218,13 @@ function renderCatalog() {
   const query = $("#search").value.trim().toLowerCase();
   const wines = catalog.wines.filter((wine) =>
     (style === "all" || wine.type === style) &&
-    [wine.name, wine.region.en, wine.region.zh, t[wine.type]].join(" ").toLowerCase().includes(query)
+    (!$("#reserve").checked || reserveTier(wine)) &&
+    (!$("#current-only").checked || wine.listed !== "archive") &&
+    [wine.name, wine.region?.en, wine.region?.zh, t[wine.type], t[reserveTier(wine)], wine.comparison?.name, wine.id].join(" ").toLowerCase().includes(query)
   );
   const byName = (a, b) => a.name.localeCompare(b.name, "en");
   const rankings = {
+    catalog: () => 0,
     score: (a, b) => (b.score ?? -1) - (a.score ?? -1) || byName(a, b),
     price: (a, b) => (a.price ?? Infinity) - (b.price ?? Infinity) || byName(a, b),
     name: byName,
@@ -222,6 +281,8 @@ for (const button of languages) {
 }
 $("#search").addEventListener("input", renderCatalog);
 $("#sort").addEventListener("change", renderCatalog);
+$("#reserve").addEventListener("change", renderCatalog);
+$("#current-only").addEventListener("change", renderCatalog);
 $("#details").addEventListener("close", () => { openWine = undefined; });
 setLanguage();
 

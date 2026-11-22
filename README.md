@@ -4,7 +4,7 @@ A static English and Simplified Chinese guide to wines listed by Trader Joe’s.
 
 ## Preview
 
-Run `python3 -m http.server 8000 --directory site` and open [localhost:8000](http://localhost:8000/). The checked-in snapshot contains three sourced sample wines.
+Run `python3 -m http.server 8000 --directory site` and open [localhost:8000](http://localhost:8000/). The checked-in snapshot includes 65 wines observed in the official category on November 22, 2026 and 44 additional wines from the [October 10 public-data snapshot](https://tjcatalog.com/about). Archived cards show their status. Each card links to the official product page.
 
 ## GitHub Pages and manual refresh
 
@@ -15,4 +15,4 @@ Run `python3 -m http.server 8000 --directory site` and open [localhost:8000](htt
 
 Trader Joe’s [says its online catalog omits some items](https://www.traderjoes.com/home/products/category/wine-beer-and-liquor-200). Coverage is online listings, and store stock and prices can vary. A failed refresh keeps the previous snapshot. AI scores summarize cited evidence and may be omitted if tasting evidence is thin.
 
-The site defaults to original summaries and generic bottle illustrations because [Trader Joe’s terms require written permission to republish its content](https://www.traderjoes.com/home/terms-of-use). With that permission, set the `TJ_MEDIA_PERMISSION` repository variable to `true` and refresh to display the official product image URL and the original English description alongside the bilingual notes.
+The site links to official Trader Joe’s bottle images where available. Premium comparisons can include a verified Total Wine product link and bottle image. The research skill labels style comparisons and requires stronger evidence for possible or confirmed bottling relationships. The default product notes use original wording. With permission to reproduce the official English copy, set `TJ_MEDIA_PERMISSION` to `true` before refreshing.

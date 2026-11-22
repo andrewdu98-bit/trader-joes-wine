@@ -5,7 +5,7 @@ const catalogFile = new URL("../site/data/wines.json", import.meta.url);
 const skill = await readFile(new URL("../.agents/skills/wine-research/SKILL.md", import.meta.url), "utf8");
 const previous = JSON.parse(await readFile(catalogFile, "utf8"));
 const model = process.env.OPENAI_MODEL || "gpt-5-mini";
-const licensedMedia = process.env.TJ_MEDIA_PERMISSION === "true";
+const includeOfficialCopy = process.env.TJ_MEDIA_PERMISSION === "true";
 const category = "beverages/wine-beer-liquor";
 const officialPage = "https://www.traderjoes.com/home/products/pdp/";
 const officialHost = "www.traderjoes.com";
@@ -109,7 +109,8 @@ const schema = object({
   officialNotes: bilingual,
   reputation: bilingual,
   comparison: nullable(object({
-    kind: enumeration("confirmed", "possible", "style"), name: text, note: bilingual,
+    kind: enumeration("confirmed", "possible", "sameProducer", "style"), name: text, note: bilingual,
+    totalWineUrl: nullable(text), productUrl: nullable(text), image: nullable(text),
   })),
   score: nullable({ type: "integer", minimum: 0, maximum: 100 }),
   confidence: enumeration("low", "medium", "high"),
@@ -155,6 +156,25 @@ async function research(listing) {
   }
   if (wine.comparison && !wine.sources.some((source) => source.role ===
       (wine.comparison.kind === "style" ? "comparison" : "origin"))) wine.comparison = null;
+  if (wine.comparison) {
+    const comparison = wine.comparison;
+    const totalWine = httpsUrl(comparison.totalWineUrl);
+    const product = httpsUrl(comparison.productUrl);
+    const retailer = totalWine && new URL(totalWine);
+    const sku = retailer?.hostname === "www.totalwine.com" &&
+      retailer.pathname.match(/^\/wine\/.+\/p\/(\d+)\/?$/)?.[1];
+    comparison.totalWineUrl = sku && consulted.has(totalWine) ? totalWine : null;
+    comparison.productUrl = consulted.has(product) ? product : null;
+    if (comparison.totalWineUrl) {
+      const image = `https://www.totalwine.com/dynamic/x1000,sq/images/${sku}/${sku}-1-fr.png`;
+      comparison.image = await fetch(image, { method: "HEAD", signal: AbortSignal.timeout(8_000) })
+        .then((response) => response.ok && response.headers.get("content-type")?.startsWith("image/") ? image : null)
+        .catch(() => null);
+    } else {
+      const image = httpsUrl(comparison.image);
+      comparison.image = consulted.has(image) ? image : null;
+    }
+  }
   return wine;
 }
 
@@ -174,10 +194,13 @@ async function refresh() {
     throw new Error("The full category is unavailable. Keeping the last full catalog.");
   }
   const cache = previous.research ?? {};
+  const previousById = new Map(previous.wines.map((wine) => [wine.id, wine]));
+  const processed = new Set(listings.map((listing) => listing.id));
   const researchCache = {};
   const wines = [];
   for (const listing of listings) {
     const fingerprint = createHash("sha256").update(JSON.stringify({ skill, model, coverage, listing })).digest("hex");
+    const previousWine = previousById.get(listing.id);
     let analysis = process.env.RERATE_ALL === "true" ? null : cache[listing.id];
     let description = listing.description;
     let image = listing.image;
@@ -196,24 +219,32 @@ async function refresh() {
         throw new Error(`SKU ${listing.id}: ${error.message}`, { cause: error });
       }
     } else {
-      const cachedListing = previous.wines.find((wine) => wine.id === listing.id);
-      if (coverage === "search" && licensedMedia && cachedListing &&
-          !Object.hasOwn(cachedListing, "description")) {
+      if (coverage === "search" && includeOfficialCopy && previousWine &&
+          !Object.hasOwn(previousWine, "description")) {
         const details = (await serp({ engine: "trader_joes_product", product_id: listing.id })).product_results;
         if (!details || details.product_id !== listing.id) throw new Error(`Invalid detail record for ${listing.id}`);
         description = details.description || "";
         image = httpsUrl(details.images?.[0], officialHost) || image;
-      } else if (coverage === "search" && licensedMedia && cachedListing) {
-        description = cachedListing.description;
-        image = cachedListing.image || image;
+      } else if (coverage === "search" && previousWine) {
+        description = previousWine.description;
+        image = previousWine.image || image;
       }
     }
     researchCache[listing.id] = analysis;
     if (analysis.wine.type === "exclude") continue;
     const { description: _description, image: _image, ...facts } = listing;
-    wines.push({ ...facts, ...analysis.wine, ...(licensedMedia ? { description, image } : {}) });
+    const wine = { ...facts, ...analysis.wine, listed: "current", image: image || previousWine?.image };
+    if (!wine.comparison && previousWine?.name === wine.name && previousWine.comparison) {
+      wine.comparison = previousWine.comparison;
+      wine.sources = [...wine.sources, ...previousWine.sources.filter((source) => ["comparison", "origin"].includes(source.role))];
+    }
+    if (includeOfficialCopy && description) wine.description = description;
+    wines.push(wine);
   }
   if (!wines.length) throw new Error("No wines identified. Keeping the last catalog.");
+  for (const wine of previous.wines) {
+    if (!processed.has(wine.id)) wines.push({ ...wine, listed: "archive" });
+  }
   const next = { coverage, updatedAt: new Date().toISOString(), wines, research: researchCache };
   if (JSON.stringify({ ...next, updatedAt: null }) === JSON.stringify({ ...previous, updatedAt: null })) {
     console.log("Catalog and research are current.");

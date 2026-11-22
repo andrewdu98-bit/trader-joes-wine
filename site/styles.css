@@ -150,3 +150,15 @@ dialog ul { padding-left: 21px; }
   .search input { width: 100%; }
   .footer { flex-wrap: wrap; padding-block: 16px; }
 }
+
+.reserve-toggle { display: inline-flex; align-items: center; gap: 7px; min-height: 42px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fffdf8; font-size: .9rem; cursor: pointer; }
+.reserve-toggle input { accent-color: var(--wine); width: 16px; height: 16px; }
+.wine-tier { color: var(--wine); margin: 0 0 8px; font-size: .85rem; font-weight: 650; }
+.card-actions { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px 16px; margin-top: 14px; }
+.card-actions .view { margin: 0; }
+.official-link { font-size: .91rem; }
+.comparison-panel { display: flex; align-items: center; gap: 14px; padding: 12px; background: #f5ece3; border-radius: 9px; }
+.comparison-panel img { width: 85px; height: 112px; object-fit: contain; mix-blend-mode: multiply; }
+.comparison-panel a { display: inline-block; margin-top: 8px; }
+.comparison-note { color: var(--muted); font-size: .91rem; }
+#detail-content > a { display: inline-block; margin-top: 8px; }

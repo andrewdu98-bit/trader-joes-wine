@@ -38,11 +38,14 @@
       </div>
       <div class="controls">
         <div class="filters" role="group" aria-label="Wine style"></div>
+        <label class="reserve-toggle"><input type="checkbox" id="reserve"><span data-copy="reserveOnly">Trader Joe’s Reserve</span></label>
+        <label class="reserve-toggle"><input type="checkbox" id="current-only"><span data-copy="currentOnly">Currently listed</span></label>
         <label class="search"><span class="visually-hidden" data-copy="searchLabel">Search wines</span>
           <input type="search" id="search" placeholder="Search wine or region">
         </label>
         <label class="sort"><span class="visually-hidden" data-copy="sortLabel">Sort wines</span>
           <select id="sort">
+            <option value="catalog" data-copy="catalogSort">Catalog order</option>
             <option value="score" data-copy="topRated">Highest rated</option>
             <option value="price" data-copy="lowPrice">Lowest price</option>
             <option value="name" data-copy="byName">Name A–Z</option>
@@ -69,10 +72,11 @@
       <div class="wine-art" aria-hidden="true"><div class="bottle"><i></i></div></div>
       <div class="wine-body">
         <p class="wine-kicker"><span class="wine-style"></span><span class="wine-region"></span></p>
+        <p class="wine-tier" hidden></p>
         <h3></h3>
         <p class="wine-notes"></p>
         <div class="wine-meta"><span class="price"></span><span class="score"></span></div>
-        <button class="view" type="button"></button>
+        <div class="card-actions"><button class="view" type="button"></button><a class="official-link" target="_blank" rel="noopener noreferrer"></a></div>
       </div>
     </article>
   </template>

@@ -1,64 +1,4050 @@
 {
-  "coverage": "sample",
-  "updatedAt": null,
+  "coverage": "snapshot",
+  "updatedAt": "2026-11-22T21:30:00Z",
+  "archiveDate": "2026-10-10",
   "wines": [
+    {
+      "id": "085366",
+      "name": "Diamond Reserve Cabernet Sauvignon Howell Mountain Napa Valley",
+      "type": "red",
+      "region": {
+        "en": "Howell Mountain, Napa Valley",
+        "zh": "纳帕谷豪威尔山"
+      },
+      "price": 19.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/085366",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Dunn Howell Mountain Cabernet Sauvignon",
+        "note": {
+          "en": "Same Howell Mountain appellation and grape. Dunn is a structured, cellar-oriented reference for mountain Cabernet.",
+          "zh": "同为豪威尔山赤霞珠。Dunn 单宁结构更强，是偏陈年的山地赤霞珠参考。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/dunn-cabernet-howell-mountain/p/19483750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/19483750/19483750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/dunn-cabernet-howell-mountain/p/19483750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/85366.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "061437",
+      "name": "Emma Reichart Dry Riesling",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 5.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/061437",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Dr. Loosen Red Slate Riesling Dry",
+        "note": {
+          "en": "A dry German Riesling reference from the Mosel, with a distinct slate-origin profile.",
+          "zh": "德国摩泽尔干型雷司令的参考，呈现红板岩产区的特色。"
+        },
+        "productUrl": "https://loosenbrosusa.com/wine/dr-loosen-red-slate-riesling-dry/"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Dr. Loosen Red Slate Riesling Dry",
+          "url": "https://loosenbrosusa.com/wine/dr-loosen-red-slate-riesling-dry/"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/61437.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "054813",
+      "name": "Moon X Dark Red Blend",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/054813",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/54813.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "064472",
+      "name": "Moon X Cabernet Sauvignon",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/064472",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "JUSTIN Cabernet Sauvignon Paso Robles",
+        "note": {
+          "en": "A step up in price within California Cabernet. JUSTIN specifies Paso Robles, a narrower source than the budget label.",
+          "zh": "同为加州赤霞珠，JUSTIN 价位更高，且明确标示更窄的帕索罗布尔斯产区。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/justin-cabernet-paso-robles/p/12841750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/12841750/12841750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/justin-cabernet-paso-robles/p/12841750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/64472.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "085461",
+      "name": "Sauvigio Sauvignon Blanc & Pinot Grigio",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/085461",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/85461.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "084859",
+      "name": "Tazmin Breeze New Zealand Sauvignon Blanc",
+      "type": "white",
+      "region": {
+        "en": "New Zealand",
+        "zh": "新西兰"
+      },
+      "price": 4.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/084859",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Cloudy Bay Sauvignon Blanc",
+        "note": {
+          "en": "A benchmark for crisp New Zealand Sauvignon Blanc. Cloudy Bay specifically comes from Marlborough.",
+          "zh": "同为清爽的新西兰长相思。云雾之湾的产区明确为马尔堡。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/sauvignon-blanc/cloudy-bay-sauvignon-blanc/p/11602750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/11602750/11602750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/sauvignon-blanc/cloudy-bay-sauvignon-blanc/p/11602750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/84859.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "084977",
+      "name": "TABLE California Red Wine",
+      "type": "red",
+      "region": {
+        "en": "California",
+        "zh": "加州"
+      },
+      "price": 9.99,
+      "size": "1 L",
+      "url": "https://www.traderjoes.com/home/products/pdp/084977",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/84977.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "083835",
+      "name": "Opaline Brut Sparkling Wine",
+      "type": "sparkling",
+      "region": {
+        "en": "France",
+        "zh": "法国"
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/083835",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/83835.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "084099",
+      "name": "Napa Estates Cabernet Sauvignon 2022",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/084099",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Cakebread Cabernet Sauvignon",
+        "note": {
+          "en": "A premium Napa Cabernet benchmark for comparison. Cakebread’s Napa Valley blend is broader than an individual district bottling.",
+          "zh": "可作高价纳帕谷赤霞珠的参照。Cakebread 的纳帕谷混酿覆盖范围比单一子产区酒款更广。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2341750/2341750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/84099.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "082719",
+      "name": "Villa Borghetti Otto Pino Grigio",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/082719",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Santa Margherita Pinot Grigio",
+        "note": {
+          "en": "A more expensive dry Pinot Grigio benchmark from northern Italy. It shares the grape, with a different regional sourcing.",
+          "zh": "来自意大利北部的高价干型灰皮诺，同葡萄品种，产区来源另有区别。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/pinot-grigiopinot-gris/santa-margherita-pinot-grigio/p/2596750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2596750/2596750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/pinot-grigiopinot-gris/santa-margherita-pinot-grigio/p/2596750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82719.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "083106",
+      "name": "Reserve Meritage Paso Robles 2023 Red Wine",
+      "type": "red",
+      "region": {
+        "en": "Paso Robles, California",
+        "zh": "加州帕索罗布尔斯"
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/083106",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "JUSTIN Isosceles",
+        "note": {
+          "en": "A higher-priced Paso Robles Bordeaux-style blend. The blend proportions and oak program are specific to Isosceles.",
+          "zh": "更高价的帕索罗布尔斯波尔多风格混酿。葡萄配比和用桶方式各有不同。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/justin-isosceles/p/11104750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/11104750/11104750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/justin-isosceles/p/11104750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/83106.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "083001",
+      "name": "Platinum Reserve Blanc de Blancs Napa Valley Sparkling Wine",
+      "type": "sparkling",
+      "region": {
+        "en": "Napa Valley, California",
+        "zh": "加州纳帕谷"
+      },
+      "price": 14.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/083001",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Domaine Carneros Brut",
+        "note": {
+          "en": "A richer California brut sparkling benchmark. Domaine Carneros is a vintage Carneros blend.",
+          "zh": "风格更丰富的加州干型起泡酒。Domaine Carneros 是标注年份的卡内罗斯混酿。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/domaine-carneros-brut/p/2652750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2652750/2652750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/domaine-carneros-brut/p/2652750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/83001.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "083002",
+      "name": "Platinum Reserve Brut Rosé Napa Valley Sparkling Wine",
+      "type": "sparkling",
+      "region": {
+        "en": "Napa Valley, California",
+        "zh": "加州纳帕谷"
+      },
+      "price": 14.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/083002",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Domaine Carneros Cuvée de la Pompadour Brut Rosé",
+        "note": {
+          "en": "A higher-priced California brut rosé. This Carneros bottling has its own Pinot Noir-led blend and house style.",
+          "zh": "价位更高的加州干型桃红起泡酒。这款卡内罗斯的配方以黑皮诺为主，酒庄风格鲜明。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/dom-carneros-rose-cuvee-de-la-pompadour/p/142261750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/142261750/142261750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/dom-carneros-rose-cuvee-de-la-pompadour/p/142261750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/83002.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "082450",
+      "name": "Compass Bridge Sonoma County Chardonnay 2023",
+      "type": "white",
+      "region": {
+        "en": "Sonoma County, California",
+        "zh": "加州索诺玛县"
+      },
+      "price": 8.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/082450",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Sonoma-Cutrer Russian River Ranches Chardonnay",
+        "note": {
+          "en": "A premium Sonoma Chardonnay comparison from Russian River Ranches, with a citrus-and-barrel-spice profile.",
+          "zh": "更高价的索诺玛霞多丽参考，来自俄罗斯河谷酒款系列，呈现柑橘与桶陈香料风味。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/chardonnay/sonomacutrer-chardonnay-russian-river/p/4410750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/4410750/4410750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/chardonnay/sonomacutrer-chardonnay-russian-river/p/4410750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82450.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "082451",
+      "name": "Compass Bridge Sonoma County Pinot Noir",
+      "type": "red",
+      "region": {
+        "en": "Sonoma County, California",
+        "zh": "加州索诺玛县"
+      },
+      "price": 8.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/082451",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "La Crema Sonoma Coast Pinot Noir",
+        "note": {
+          "en": "A pricier Sonoma Pinot Noir with a narrower coastal appellation.",
+          "zh": "同为索诺玛黑皮诺，La Crema 来自范围更窄的索诺玛海岸产区，价位更高。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/pinot-noir/la-crema-sonoma-coast-pinot-noir/p/4057750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/4057750/4057750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/pinot-noir/la-crema-sonoma-coast-pinot-noir/p/4057750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82451.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "082328",
+      "name": "Maison Barboulot Chardonnay-Viognier 2024",
+      "type": "white",
+      "region": {
+        "en": "France",
+        "zh": "法国"
+      },
+      "price": 5.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/082328",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82328.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "082097",
+      "name": "Sunshine Mountain Vineyard Pinot Noir 2023",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 14.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/082097",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82097.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "081937",
+      "name": "Tarongino Frizzante Sparkling Orange Wine",
+      "type": "sparkling",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 11.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/081937",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81937.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "079060",
+      "name": "Cinsault Rosé Maison Barboulot",
+      "type": "rose",
+      "region": {
+        "en": "France",
+        "zh": "法国"
+      },
+      "price": 5.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/079060",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/79060.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "060276",
+      "name": "Emma Reichart Rosé Pinot Noir",
+      "type": "rose",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 5.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/060276",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/60276.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "080806",
+      "name": "Casone Toscana Governo All'uso Toscano 2023",
+      "type": "red",
+      "region": {
+        "en": "Tuscany, Italy",
+        "zh": "意大利托斯卡纳"
+      },
+      "price": 8.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/080806",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/80806.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "080805",
+      "name": "Casone Toscana Vermentino 2023",
+      "type": "white",
+      "region": {
+        "en": "Tuscany, Italy",
+        "zh": "意大利托斯卡纳"
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/080805",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/80805.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "090061",
+      "name": "Charles Shaw Pinot Grigio",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/090061",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Santa Margherita Pinot Grigio",
+        "note": {
+          "en": "A more expensive dry Pinot Grigio benchmark from northern Italy. It shares the grape, with a different regional sourcing.",
+          "zh": "来自意大利北部的高价干型灰皮诺，同葡萄品种，产区来源另有区别。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/pinot-grigiopinot-gris/santa-margherita-pinot-grigio/p/2596750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2596750/2596750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/pinot-grigiopinot-gris/santa-margherita-pinot-grigio/p/2596750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/90061.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "092700",
+      "name": "Charles Shaw White Zinfandel",
+      "type": "rose",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/092700",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/92700.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "067809",
+      "name": "Charles Shaw Shiraz",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/067809",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/67809.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "049356",
+      "name": "Charles Shaw Sauvignon Blanc",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/049356",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/49356.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "064259",
+      "name": "Charles Shaw Red Blend",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/064259",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/64259.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "052437",
+      "name": "Charles Shaw Cabernet Sauvignon",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/052437",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "JUSTIN Cabernet Sauvignon Paso Robles",
+        "note": {
+          "en": "A step up in price within California Cabernet. JUSTIN specifies Paso Robles, a narrower source than the budget label.",
+          "zh": "同为加州赤霞珠，JUSTIN 价位更高，且明确标示更窄的帕索罗布尔斯产区。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/justin-cabernet-paso-robles/p/12841750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/12841750/12841750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/justin-cabernet-paso-robles/p/12841750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/52437.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "080862",
+      "name": "Henri Laffard Grand Reserve Brut Champagne",
+      "type": "sparkling",
+      "region": {
+        "en": "Champagne, France",
+        "zh": "法国香槟区"
+      },
+      "price": 26.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/080862",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Veuve Clicquot Yellow Label Brut Champagne",
+        "note": {
+          "en": "A pricier nonvintage Brut Champagne benchmark. The two houses have distinct blend and reserve-wine programs.",
+          "zh": "同为无年份干型香槟，黄牌香槟价位更高，两家酒庄的调配和基酒风格各有差异。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/champagne/brut/veuve-clicquot-yellow-label-brut/p/1534750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/1534750/1534750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/champagne/brut/veuve-clicquot-yellow-label-brut/p/1534750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/80862.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "081576",
+      "name": "Almond Creek Almond Flavored Sparkling Wine",
+      "type": "sparkling",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/081576",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81576.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "058289",
+      "name": "La Burgondie Cremant De Bourgogne Rose Brut",
+      "type": "sparkling",
+      "region": {
+        "en": "Burgundy, France",
+        "zh": "法国勃艮第"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/058289",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Louis Bouillot Perle d’Aurore Crémant de Bourgogne Rosé",
+        "note": {
+          "en": "Both are Burgundy rosé crémants. Louis Bouillot blends Pinot Noir, Chardonnay and Gamay.",
+          "zh": "同为勃艮第桃红克雷芒起泡酒。Louis Bouillot 混酿黑皮诺、霞多丽和佳美。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/louis-bouillot-perle-daurore-cremant-de-bourgogne-sparkling-rose-wine/p/98321750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/98321750/98321750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/louis-bouillot-perle-daurore-cremant-de-bourgogne-sparkling-rose-wine/p/98321750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/58289.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "067802",
+      "name": "Charles Shaw Nouveau Red Table Wine 2024",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/067802",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/67802.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "051341",
+      "name": "Grand Reserve Chardonnay Carneros 2023",
+      "type": "white",
+      "region": {
+        "en": "Carneros, California",
+        "zh": "加州卡内罗斯"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/051341",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Rombauer Carneros Chardonnay",
+        "note": {
+          "en": "Both are Carneros Chardonnay. Rombauer is a richer, creamier benchmark for the region.",
+          "zh": "同为卡内罗斯霞多丽。Rombauer 是酒体更丰厚、口感更绵密的产区参考。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/chardonnay/rombauer-chardonnay/p/8875750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/8875750/8875750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/chardonnay/rombauer-chardonnay/p/8875750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/51341.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "062109",
+      "name": "Susumaniello Ruggero di Bardo",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/062109",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/62109.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "078993",
+      "name": "Langhe Nebbiolo Rosa dell Olmo 2021",
+      "type": "red",
+      "region": {
+        "en": "Langhe, Piedmont",
+        "zh": "意大利皮埃蒙特朗格"
+      },
+      "price": 8.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/078993",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Vietti Perbacco Langhe Nebbiolo",
+        "note": {
+          "en": "Both are Langhe Nebbiolo. Perbacco is a more ambitious example with extended maturation.",
+          "zh": "同为朗格内比奥罗。Perbacco 的熟成较长，可作高价参照。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/nebbiolo/vietti-perbacco-nebbiolo/p/4630750"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/nebbiolo/vietti-perbacco-nebbiolo/p/4630750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/78993.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "099318",
+      "name": "Caretaker Pinot Noir 2022",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/099318",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/99318.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "066788",
+      "name": "Loudenotte Pinot Noir 2022",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/066788",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/66788.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "057636",
+      "name": "Moon X Pinot Noir",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/057636",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/57636.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "079061",
+      "name": "Vignobles Lacheteau Touraine Sauvignon Blanc",
+      "type": "white",
+      "region": {
+        "en": "Touraine, Loire Valley",
+        "zh": "卢瓦尔河谷图赖讷"
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/079061",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Domaine Salmon Sancerre Sauvignon Blanc",
+        "note": {
+          "en": "Dry Sauvignon Blanc from another Loire appellation. Sancerre gives context for Touraine’s citrus and acidity at a substantially higher price.",
+          "zh": "同为卢瓦尔河谷干型长相思，桑塞尔来自不同子产区，适合对比图赖讷的柑橘风味和酸度，价位也明显更高。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/sauvignon-blanc/domaine-salmon-sancerre-sauvignon-blanc/p/13305750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/13305750/13305750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/sauvignon-blanc/domaine-salmon-sancerre-sauvignon-blanc/p/13305750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/79061.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "078137",
+      "name": "Prosecco",
+      "type": "sparkling",
+      "region": {
+        "en": "Italy",
+        "zh": "意大利"
+      },
+      "price": 8.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/078137",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "La Marca Luminore Prosecco DOCG",
+        "note": {
+          "en": "A higher-priced Prosecco from the Conegliano Valdobbiadene DOCG. Expect a floral, pear-led comparison with clearly specified origin.",
+          "zh": "来自科内利亚诺－瓦尔多比亚德内 DOCG 的高价普罗塞克，花香和梨香鲜明，产区更明确。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/la-marca-prosecco-luminore-docg/p/215789750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/215789750/215789750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/la-marca-prosecco-luminore-docg/p/215789750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/78137.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "058288",
+      "name": "La Burgondie Crémant de Bourgogne",
+      "type": "sparkling",
+      "region": {
+        "en": "Burgundy, France",
+        "zh": "法国勃艮第"
+      },
+      "price": 11.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/058288",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Louis Bouillot Perle de Vigne Crémant de Bourgogne Brut",
+        "note": {
+          "en": "A higher-priced white brut from the same Burgundy crémant appellation.",
+          "zh": "同属勃艮第克雷芒产区，价位更高的白葡萄干型起泡酒。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/louis-bouillot-perle-de-vigne-cremant-de-bourgogne-brut-sparkling-wine/p/93457750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/93457750/93457750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/louis-bouillot-perle-de-vigne-cremant-de-bourgogne-brut-sparkling-wine/p/93457750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/58288.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "066484",
+      "name": "Hark and Holly Glühwein Mulled Wine",
+      "type": "other",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "1 L",
+      "url": "https://www.traderjoes.com/home/products/pdp/066484",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/66484.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "052436",
+      "name": "Charles Shaw Merlot",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/052436",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/52436.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "052435",
+      "name": "Charles Shaw Chardonnay",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/052435",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/52435.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "056083",
+      "name": "Big Churn Chardonnay California",
+      "type": "white",
+      "region": {
+        "en": "California",
+        "zh": "加州"
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/056083",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Rombauer Carneros Chardonnay",
+        "note": {
+          "en": "A premium example of the rich California Chardonnay style. Rombauer is specifically from Carneros.",
+          "zh": "浓郁型加州霞多丽的高价参考，Rombauer 明确来自卡内罗斯。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/chardonnay/rombauer-chardonnay/p/8875750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/8875750/8875750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/chardonnay/rombauer-chardonnay/p/8875750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/56083.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "063002",
+      "name": "Tuatea Marlborough New Zealand Sauvignon Blanc",
+      "type": "white",
+      "region": {
+        "en": "Marlborough, New Zealand",
+        "zh": "新西兰马尔堡"
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/063002",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Cloudy Bay Sauvignon Blanc",
+        "note": {
+          "en": "Both are Marlborough Sauvignon Blanc. Cloudy Bay is a benchmark for more expressive citrus and tropical fruit.",
+          "zh": "同为马尔堡长相思。云雾之湾可作为柑橘和热带水果香气更浓郁的高价参照。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/sauvignon-blanc/cloudy-bay-sauvignon-blanc/p/11602750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/11602750/11602750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/sauvignon-blanc/cloudy-bay-sauvignon-blanc/p/11602750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/63002.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "074871",
+      "name": "Vin De Bordeaux B by Fonbadet Bordeaux 2019",
+      "type": "red",
+      "region": {
+        "en": "Bordeaux, France",
+        "zh": "法国波尔多"
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/074871",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "A budget Bordeaux that drew attention for the Fonbadet name and an approachable red-fruit profile.",
+        "zh": "这款平价波尔多因 Fonbadet 名称和易接受的红色果味而受到关注。"
+      },
+      "comparison": {
+        "kind": "sameProducer",
+        "name": "Château Fonbadet Pauillac",
+        "note": {
+          "en": "A higher-tier bottling from Fonbadet. The château wine is Pauillac, while the B bottling uses grapes grown outside that appellation.",
+          "zh": "Fonbadet 旗下更高端的酒款。正牌酒来自波雅克产区，B 酒款则使用该产区以外的葡萄。"
+        },
+        "productUrl": "https://www.domainespeyronie.com/en/our-wines",
+        "image": "https://www.domainespeyronie.com/assets/static/03_bouteille_founbadet2.png"
+      },
+      "score": 83,
+      "rationale": {
+        "en": "Good value for a straightforward Bordeaux, with limited published tasting evidence.",
+        "zh": "作为易饮型波尔多性价比不错，公开品鉴资料有限。"
+      },
+      "sources": [
+        {
+          "role": "review",
+          "label": "Reverse Wine Snob",
+          "url": "https://www.reversewinesnob.com/b-by-fonbadet-bordeaux-trader-joes/"
+        },
+        {
+          "role": "origin",
+          "label": "Domaines Peyronie",
+          "url": "https://www.domainespeyronie.com/en/our-wines"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/74871.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "confidence": "low"
+    },
+    {
+      "id": "098097",
+      "name": "Cecilia Beretta Prosecco",
+      "type": "sparkling",
+      "region": {
+        "en": "Italy",
+        "zh": "意大利"
+      },
+      "price": 10.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/098097",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "La Marca Luminore Prosecco DOCG",
+        "note": {
+          "en": "A higher-priced Prosecco from the Conegliano Valdobbiadene DOCG. Expect a floral, pear-led comparison with clearly specified origin.",
+          "zh": "来自科内利亚诺－瓦尔多比亚德内 DOCG 的高价普罗塞克，花香和梨香鲜明，产区更明确。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/la-marca-prosecco-luminore-docg/p/215789750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/215789750/215789750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/la-marca-prosecco-luminore-docg/p/215789750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/98097.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
     {
       "id": "066649",
       "name": "Opaline Pinot Noir Brut Rosé",
       "type": "sparkling",
-      "region": {"en": "Southern France", "zh": "法国南部"},
+      "region": {
+        "en": "Southern France",
+        "zh": "法国南部"
+      },
       "price": 9.99,
       "size": "750 mL",
       "url": "https://www.traderjoes.com/home/products/pdp/066649",
-      "officialNotes": {"en": "A dry pink sparkler made entirely from Pinot Noir grown in southern France, with berry and floral notes.", "zh": "以法国南部的黑皮诺酿造的干型桃红起泡酒，带有浆果和花香。"},
-      "reputation": {"en": "Known for its ornate bottle and berry-driven style under $10. The Kitchn recommends it, while another tasting found the bubbles faded quickly.", "zh": "以精致的酒瓶、鲜明的浆果风味和不到 10 美元的售价受到关注。《The Kitchn》推荐这款酒，也有试饮者认为气泡消散较快。"},
-      "comparison": {"kind": "style", "name": "Gérard Bertrand Héritage An 825 Crémant de Limoux Brut Rosé", "note": {"en": "A more expensive southern French brut rosé to compare. Its blend and traditional-method production offer a different take on the style.", "zh": "同样来自法国南部的干型桃红起泡酒，价位更高。它采用混酿和传统法，呈现出不同的风格。"}},
+      "listed": "current",
+      "officialNotes": {
+        "en": "A dry pink sparkler made entirely from Pinot Noir grown in southern France, with berry and floral notes.",
+        "zh": "以法国南部的黑皮诺酿造的干型桃红起泡酒，带有浆果和花香。"
+      },
+      "reputation": {
+        "en": "Known for its ornate bottle and berry-driven style under $10. The Kitchn recommends it, while another tasting found the bubbles faded quickly.",
+        "zh": "以精致的酒瓶、鲜明的浆果风味和不到 10 美元的售价受到关注。《The Kitchn》推荐这款酒，也有试饮者认为气泡消散较快。"
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Gérard Bertrand Héritage An 825 Crémant de Limoux Brut Rosé",
+        "note": {
+          "en": "A more expensive southern French brut rosé to compare. Its blend and traditional-method production offer a different take on the style.",
+          "zh": "同样来自法国南部的干型桃红起泡酒，价位更高。它采用混酿和传统法，呈现出不同的风格。"
+        },
+        "productUrl": "https://www.gerard-bertrand.com/en/products/heritage-an-825-cremant-de-limoux-brut-rose-2022-75cl",
+        "image": "https://www.gerard-bertrand.com/cdn/shop/files/20191016103802_52e47945-570b-4183-ab79-7abfb7a1409d.jpg?v=1625817610&width=512"
+      },
       "score": 81,
-      "confidence": "medium",
-      "rationale": {"en": "Distinctive fruit and strong value, with mixed impressions of the bubbles.", "zh": "果味鲜明、性价比好，气泡表现的评价有分歧。"},
+      "rationale": {
+        "en": "Distinctive fruit and strong value, with mixed impressions of the bubbles.",
+        "zh": "果味鲜明、性价比好，气泡表现的评价有分歧。"
+      },
       "sources": [
-        {"role": "review", "label": "The Kitchn", "url": "https://www.thekitchn.com/the-best-trader-joes-wine-23786735"},
-        {"role": "review", "label": "Eat This, Not That! tasting", "url": "https://www.eatthis.com/trader-joes-wines-taste-test/"},
-        {"role": "comparison", "label": "Gérard Bertrand", "url": "https://www.gerard-bertrand.com/en/products/heritage-an-825-cremant-de-limoux-brut-rose-2022-75cl"}
-      ]
+        {
+          "role": "review",
+          "label": "The Kitchn",
+          "url": "https://www.thekitchn.com/the-best-trader-joes-wine-23786735"
+        },
+        {
+          "role": "review",
+          "label": "Eat This, Not That! tasting",
+          "url": "https://www.eatthis.com/trader-joes-wines-taste-test/"
+        },
+        {
+          "role": "comparison",
+          "label": "Gérard Bertrand",
+          "url": "https://www.gerard-bertrand.com/en/products/heritage-an-825-cremant-de-limoux-brut-rose-2022-75cl"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/66649.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "confidence": "medium"
+    },
+    {
+      "id": "047536",
+      "name": "Espiral Vinho Verde",
+      "type": "white",
+      "region": {
+        "en": "Vinho Verde, Portugal",
+        "zh": "葡萄牙绿酒产区"
+      },
+      "price": 5.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/047536",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Aveleda Alvarinho",
+        "note": {
+          "en": "A premium white from the Vinho Verde region. The varietal Alvarinho offers a fuller comparison with the light blend.",
+          "zh": "同来自葡萄牙绿酒产区。单一阿尔瓦里尼奥酒体更丰厚，可与轻盈的混酿对比。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/alvarinho/aveleda-alvarinho/p/113941750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/113941750/113941750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/alvarinho/aveleda-alvarinho/p/113941750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/47536.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "061457",
+      "name": "Rebuttel Chardonnay",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/061457",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/61457.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "072944",
+      "name": "French Fizz Le Rosé 2021",
+      "type": "sparkling",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/072944",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/72944.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "072893",
+      "name": "French Fizz Le Blanc 2021",
+      "type": "sparkling",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/072893",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/72893.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "062771",
+      "name": "Maison Barboulot Cabernet Syrah",
+      "type": "red",
+      "region": {
+        "en": "France",
+        "zh": "法国"
+      },
+      "price": 5.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/062771",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/62771.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "072130",
+      "name": "Giardino Pinot Grigio Rosé Vivace",
+      "type": "sparkling",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/072130",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/72130.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "055388",
+      "name": "Reserve Brut Rosé North Coast",
+      "type": "sparkling",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/055388",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Domaine Carneros Cuvée de la Pompadour Brut Rosé",
+        "note": {
+          "en": "A higher-priced California brut rosé. This Carneros bottling has its own Pinot Noir-led blend and house style.",
+          "zh": "价位更高的加州干型桃红起泡酒。这款卡内罗斯的配方以黑皮诺为主，酒庄风格鲜明。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/dom-carneros-rose-cuvee-de-la-pompadour/p/142261750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/142261750/142261750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/dom-carneros-rose-cuvee-de-la-pompadour/p/142261750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/55388.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "093706",
+      "name": "Reserve North Coast Brut Sparkling Wine",
+      "type": "sparkling",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/093706",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Domaine Carneros Brut",
+        "note": {
+          "en": "A richer California brut sparkling benchmark. Domaine Carneros is a vintage Carneros blend.",
+          "zh": "风格更丰富的加州干型起泡酒。Domaine Carneros 是标注年份的卡内罗斯混酿。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/domaine-carneros-brut/p/2652750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2652750/2652750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/domaine-carneros-brut/p/2652750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/93706.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "061644",
+      "name": "L'Eclat Blanc de Blancs",
+      "type": "sparkling",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 15.99,
+      "size": "1.5 L",
+      "url": "https://www.traderjoes.com/home/products/pdp/061644",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/61644.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "097379",
+      "name": "Incanto Prosecco",
+      "type": "sparkling",
+      "region": {
+        "en": "Italy",
+        "zh": "意大利"
+      },
+      "price": 14.99,
+      "size": "1.5 L",
+      "url": "https://www.traderjoes.com/home/products/pdp/097379",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "La Marca Luminore Prosecco DOCG",
+        "note": {
+          "en": "A higher-priced Prosecco from the Conegliano Valdobbiadene DOCG. Expect a floral, pear-led comparison with clearly specified origin.",
+          "zh": "来自科内利亚诺－瓦尔多比亚德内 DOCG 的高价普罗塞克，花香和梨香鲜明，产区更明确。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/la-marca-prosecco-luminore-docg/p/215789750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/215789750/215789750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/la-marca-prosecco-luminore-docg/p/215789750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/97379.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
       "id": "098693",
       "name": "Picton Bay Sauvignon Blanc",
       "type": "white",
-      "region": {"en": "Marlborough, New Zealand", "zh": "新西兰马尔堡"},
+      "region": {
+        "en": "Marlborough, New Zealand",
+        "zh": "新西兰马尔堡"
+      },
       "price": 7.99,
       "size": "750 mL",
-      "url": "https://www.traderjoes.com/home/products/pdp/picton-bay-sauvignon-blanc-098693",
-      "officialNotes": {"en": "A crisp Marlborough Sauvignon Blanc with grassy aromatics, bright fruit and tart green-apple character.", "zh": "清爽的马尔堡长相思，带有青草香、明亮果味和青苹果般的酸度。"},
-      "reputation": {"en": "An inexpensive introduction to Marlborough Sauvignon Blanc. A tasting of the 2022 highlighted gooseberry, grapefruit and cut grass.", "zh": "适合低预算入门的马尔堡长相思。2022 年份的一篇品鉴记录提到醋栗、葡萄柚和青草香。"},
-      "comparison": {"kind": "style", "name": "Cloudy Bay Sauvignon Blanc", "note": {"en": "A pricier Marlborough benchmark built on the same grape and a bright citrus profile. Picton Bay is the simpler everyday option.", "zh": "同属马尔堡长相思，也有明亮的柑橘风味；云雾之湾价位更高，Picton Bay 则走简单易饮的日常路线。"}},
+      "url": "https://www.traderjoes.com/home/products/pdp/098693",
+      "listed": "current",
+      "officialNotes": {
+        "en": "A crisp Marlborough Sauvignon Blanc with grassy aromatics, bright fruit and tart green-apple character.",
+        "zh": "清爽的马尔堡长相思，带有青草香、明亮果味和青苹果般的酸度。"
+      },
+      "reputation": {
+        "en": "An inexpensive introduction to Marlborough Sauvignon Blanc. A tasting of the 2022 highlighted gooseberry, grapefruit and cut grass.",
+        "zh": "适合低预算入门的马尔堡长相思。2022 年份的一篇品鉴记录提到醋栗、葡萄柚和青草香。"
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Cloudy Bay Sauvignon Blanc",
+        "note": {
+          "en": "Both are Marlborough Sauvignon Blanc. Cloudy Bay is a benchmark for more expressive citrus and tropical fruit.",
+          "zh": "同为马尔堡长相思。云雾之湾可作为柑橘和热带水果香气更浓郁的高价参照。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/sauvignon-blanc/cloudy-bay-sauvignon-blanc/p/11602750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/11602750/11602750-1-fr.png"
+      },
       "score": 83,
-      "confidence": "low",
-      "rationale": {"en": "Classic regional character at a good price, based mainly on older tasting evidence.", "zh": "产区特色清晰，价格实惠，评分主要参考较早的品鉴资料。"},
+      "rationale": {
+        "en": "Classic regional character at a good price, based mainly on older tasting evidence.",
+        "zh": "产区特色清晰，价格实惠，评分主要参考较早的品鉴资料。"
+      },
       "sources": [
-        {"role": "review", "label": "Girls Go Grape", "url": "https://girlsgogrape.com/2023/03/22/trader-joes-grocery-store-wine-challenge-palm-desert-california/"},
-        {"role": "comparison", "label": "Wine-Searcher", "url": "https://uploads.gocdn.us/123_8042_wine-searcher.com-The%20Busy%20Wine%20Lovers%20Guide%20to%20Cloudy%20Bay.pdf"}
-      ]
+        {
+          "role": "review",
+          "label": "Girls Go Grape",
+          "url": "https://girlsgogrape.com/2023/03/22/trader-joes-grocery-store-wine-challenge-palm-desert-california/"
+        },
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/sauvignon-blanc/cloudy-bay-sauvignon-blanc/p/11602750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/98693.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "confidence": "low"
+    },
+    {
+      "id": "048838",
+      "name": "Villa Cerrina Montepulciano D'Abruzzo",
+      "type": "red",
+      "region": {
+        "en": "Abruzzo, Italy",
+        "zh": "意大利阿布鲁佐"
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/048838",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/48838.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "087390",
+      "name": "La Ferme Julien Rosé",
+      "type": "rose",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/087390",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/87390.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "070780",
+      "name": "Love, Olivia Peach Wine",
+      "type": "other",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/070780",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/70780.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "070782",
+      "name": "Love, Olivia Watermelon Wine",
+      "type": "other",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/070782",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/70782.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "069653",
+      "name": "Honey Moon Viognier",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 5.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/069653",
+      "listed": "current",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/69653.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "085056",
+      "name": "Plat Rsv Cabernet Sauvignon Stags Leap District Napa Valley 2023",
+      "type": "red",
+      "region": {
+        "en": "Stags Leap District, Napa Valley",
+        "zh": "纳帕谷鹿跃区"
+      },
+      "price": 17.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/085056",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Stag’s Leap Wine Cellars FAY Cabernet Sauvignon",
+        "note": {
+          "en": "Both are Stags Leap District Cabernet. FAY is a single-vineyard Napa benchmark at a much higher price.",
+          "zh": "同为纳帕谷鹿跃区赤霞珠。FAY 是价位高得多的单一园代表。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/stags-leap-fay-cabernet-sauvignon/p/2126256287",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2126256287/2126256287-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/stags-leap-fay-cabernet-sauvignon/p/2126256287"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/85056.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "084627",
+      "name": "Le Beau Sud Vermentino-Sauvignon Blanc",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 8.99,
+      "size": "1 L",
+      "url": "https://www.traderjoes.com/home/products/pdp/084627",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/84627.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "078989",
+      "name": "Grand Reserve Meritage Paso Robles 2023",
+      "type": "red",
+      "region": {
+        "en": "Paso Robles, California",
+        "zh": "加州帕索罗布尔斯"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/078989",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "The 2023 Paso Robles Grand Reserve has drawn favorable coverage for delivering a full Bordeaux-style red at a modest price.",
+        "zh": "2023 年帕索罗布尔斯 Grand Reserve 以平实价格提供醇厚的波尔多风格红酒，获得正面品鉴评价。"
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "JUSTIN Isosceles",
+        "note": {
+          "en": "A higher-priced Paso Robles Bordeaux-style blend. The blend proportions and oak program are specific to Isosceles.",
+          "zh": "更高价的帕索罗布尔斯波尔多风格混酿。葡萄配比和用桶方式各有不同。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/justin-isosceles/p/11104750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/11104750/11104750-1-fr.png"
+      },
+      "score": 88,
+      "rationale": {
+        "en": "Substantial regional character and excellent value for a Bordeaux-style blend.",
+        "zh": "产区特色明确，作为波尔多风格混酿性价比突出。"
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/justin-isosceles/p/11104750"
+        },
+        {
+          "role": "review",
+          "label": "Reverse Wine Snob",
+          "url": "https://www.reversewinesnob.com/trader-joes-grand-reserve-paso-robles-meritage-review/"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/78989.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "confidence": "medium"
+    },
+    {
+      "id": "083116",
+      "name": "Diamond Reserve Cabernet Sauvignon Rutherford Napa Valley 2023",
+      "type": "red",
+      "region": {
+        "en": "Rutherford, Napa Valley",
+        "zh": "纳帕谷卢瑟福"
+      },
+      "price": 19.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/083116",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "Rutherford Lot 11. The label identifies Isolated Cellars as the bottler. Trader Joe’s withheld the vineyard name.",
+        "zh": "卢瑟福第 11 批次。酒标注明由 Isolated Cellars 装瓶。Trader Joe’s 未公开葡萄园名称。"
+      },
+      "reputation": {
+        "en": "The 2023 Rutherford bottling is sought out as a $20 entry into a well-known Napa appellation.",
+        "zh": "2023 年份凭借约 20 美元的价格和知名的卢瑟福产区受到关注。"
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "S.R. Tonella Estate Cabernet Rutherford",
+        "note": {
+          "en": "A higher-priced estate Cabernet from Rutherford. Its fruit comes from a specifically identified estate.",
+          "zh": "同产区的高价卢瑟福赤霞珠，这款酒明确使用自家庄园葡萄。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/sr-tonella-estate-cabernet-rutherford/p/214196750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/214196750/214196750-1-fr.png"
+      },
+      "score": 88,
+      "rationale": {
+        "en": "A strong price for Rutherford Cabernet and positive published tasting evidence.",
+        "zh": "在卢瑟福赤霞珠中价位较低，有正面的公开品鉴支持。"
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/sr-tonella-estate-cabernet-rutherford/p/214196750"
+        },
+        {
+          "role": "review",
+          "label": "Reverse Wine Snob",
+          "url": "https://www.reversewinesnob.com/trader-joes-diamond-reserve-rutherford-napa-valley-cabernet-sauvignon/"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/83116.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "confidence": "medium"
+    },
+    {
+      "id": "082546",
+      "name": "Grand Reserve Cabernet Sauvignon Napa Valley 2021 Lot #139",
+      "type": "red",
+      "region": {
+        "en": "Napa Valley, California",
+        "zh": "加州纳帕谷"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/082546",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Cakebread Cabernet Sauvignon",
+        "note": {
+          "en": "A premium Napa Cabernet benchmark for comparison. Cakebread’s Napa Valley blend is broader than an individual district bottling.",
+          "zh": "可作高价纳帕谷赤霞珠的参照。Cakebread 的纳帕谷混酿覆盖范围比单一子产区酒款更广。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2341750/2341750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82546.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "082449",
+      "name": "Compass Bridge Sonoma County Cabernet Sauvignon 2023",
+      "type": "red",
+      "region": {
+        "en": "Sonoma County, California",
+        "zh": "加州索诺玛县"
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/082449",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82449.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "081725",
+      "name": "Diamond Reserve Cabernet Sauvignon Napa Valley 2023",
+      "type": "red",
+      "region": {
+        "en": "Napa Valley, California",
+        "zh": "加州纳帕谷"
+      },
+      "price": 19.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/081725",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Cakebread Cabernet Sauvignon",
+        "note": {
+          "en": "A premium Napa Cabernet benchmark for comparison. Cakebread’s Napa Valley blend is broader than an individual district bottling.",
+          "zh": "可作高价纳帕谷赤霞珠的参照。Cakebread 的纳帕谷混酿覆盖范围比单一子产区酒款更广。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2341750/2341750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81725.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "081939",
+      "name": "Copilot Pinot Noir 2023",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/081939",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81939.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "081938",
+      "name": "Copilot Chardonnay 2023",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/081938",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81938.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "081195",
+      "name": "Reserve Chardonnay Arroyo Seco Monterey County 2023 Lot #262",
+      "type": "white",
+      "region": {
+        "en": "Arroyo Seco, Monterey County",
+        "zh": "蒙特雷县阿罗约塞科"
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/081195",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Wente Riva Ranch Reserve Chardonnay",
+        "note": {
+          "en": "Both are Arroyo Seco Chardonnay. Riva Ranch is a vineyard-specific comparison with a richer barrel-influenced profile.",
+          "zh": "同为阿罗约塞科霞多丽。Riva Ranch 是来自特定葡萄园、桶陈风味较浓的参考。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/chardonnay/wente-chardonnay-riva-ranch-reserve/p/10983750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/10983750/10983750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/chardonnay/wente-chardonnay-riva-ranch-reserve/p/10983750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81195.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "081266",
+      "name": "Reserve Zinfandel Paso Robles Adelaida District 2023 Lot #265",
+      "type": "red",
+      "region": {
+        "en": "Paso Robles, California",
+        "zh": "加州帕索罗布尔斯"
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/081266",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81266.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
       "id": "061916",
       "name": "Corvelia Cabernet Sauvignon",
       "type": "red",
-      "region": {"en": "Paso Robles, California", "zh": "加州帕索罗布尔斯"},
+      "region": {
+        "en": "Paso Robles, California",
+        "zh": "加州帕索罗布尔斯"
+      },
       "price": 9.99,
       "size": "750 mL",
-      "url": "https://www.traderjoes.com/home/products/pdp/corvelia-cabernet-sauvignon-061916",
-      "officialNotes": {"en": "A Paso Robles Cabernet with ripe dark fruit and a touch of tobacco in the retailer’s tasting description.", "zh": "来自帕索罗布尔斯的赤霞珠。官方品鉴描述提到成熟的深色水果和一丝烟草香。"},
-      "reputation": {"en": "A soft, fruit-forward Cabernet led by cherry and vanilla. Tastings disagree on how much structure it offers.", "zh": "口感柔和、果味突出的赤霞珠，以樱桃和香草风味为主。不同品鉴者对它的结构感评价不一。"},
-      "comparison": null,
+      "url": "https://www.traderjoes.com/home/products/pdp/061916",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "A Paso Robles Cabernet with ripe dark fruit and a touch of tobacco in the retailer’s tasting description.",
+        "zh": "来自帕索罗布尔斯的赤霞珠。官方品鉴描述提到成熟的深色水果和一丝烟草香。"
+      },
+      "reputation": {
+        "en": "A soft, fruit-forward Cabernet led by cherry and vanilla. Tastings disagree on how much structure it offers.",
+        "zh": "口感柔和、果味突出的赤霞珠，以樱桃和香草风味为主。不同品鉴者对它的结构感评价不一。"
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "J. Lohr Hilltop Cabernet Sauvignon",
+        "note": {
+          "en": "Also a Paso Robles Cabernet. Hilltop brings firmer structure and extended French-oak aging.",
+          "zh": "同为帕索罗布尔斯赤霞珠。Hilltop 的结构更扎实，并经过较长时间的法国橡木桶陈年。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/j-lohr-hilltop-cabernet-sauvignon/p/91516750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/91516750/91516750-1-fr.png"
+      },
       "score": 80,
-      "confidence": "medium",
-      "rationale": {"en": "Appealing fruit and value, with less tannic grip than some Cabernet drinkers may expect.", "zh": "果味讨喜、性价比好，单宁力度较轻。"},
+      "rationale": {
+        "en": "Appealing fruit and value, with less tannic grip than some Cabernet drinkers may expect.",
+        "zh": "果味讨喜、性价比好，单宁力度较轻。"
+      },
       "sources": [
-        {"role": "review", "label": "Reverse Wine Snob", "url": "https://www.reversewinesnob.com/corvelia-cabernet-sauvignon"},
-        {"role": "review", "label": "San Francisco Chronicle", "url": "https://www.sfchronicle.com/food/wine/article/vivino-app-top-wines-17408037.php"}
+        {
+          "role": "review",
+          "label": "Reverse Wine Snob",
+          "url": "https://www.reversewinesnob.com/corvelia-cabernet-sauvignon"
+        },
+        {
+          "role": "review",
+          "label": "San Francisco Chronicle",
+          "url": "https://www.sfchronicle.com/food/wine/article/vivino-app-top-wines-17408037.php"
+        },
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/j-lohr-hilltop-cabernet-sauvignon/p/91516750"
+        }
+      ],
+      "confidence": "medium",
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/61916.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "080413",
+      "name": "Platinum Reserve Cabernet Sauvignon Yountville Napa Valley 2023",
+      "type": "red",
+      "region": {
+        "en": "Yountville, Napa Valley",
+        "zh": "纳帕谷扬特维尔"
+      },
+      "price": 17.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/080413",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Cakebread Cabernet Sauvignon",
+        "note": {
+          "en": "A premium Napa Cabernet benchmark for comparison. Cakebread’s Napa Valley blend is broader than an individual district bottling.",
+          "zh": "可作高价纳帕谷赤霞珠的参照。Cakebread 的纳帕谷混酿覆盖范围比单一子产区酒款更广。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2341750/2341750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/80413.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "080813",
+      "name": "Super Happy Cabernet Sauvignon Sangiovese & Malbec",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/080813",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/80813.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "079524",
+      "name": "Pumpkin Spice Chardonnay",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/079524",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/79524.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "076075",
+      "name": "Motif Cabernet Sauvignon Red Hills Lake County",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 5.49,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/076075",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/76075.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "079632",
+      "name": "Grand Reserve Syrah Sonoma County 2022",
+      "type": "red",
+      "region": {
+        "en": "Sonoma County, California",
+        "zh": "加州索诺玛县"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/079632",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/79632.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "079777",
+      "name": "Reserve Chardonnay Yountville Napa Valley 2023",
+      "type": "white",
+      "region": {
+        "en": "Yountville, Napa Valley",
+        "zh": "纳帕谷扬特维尔"
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/079777",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Grgich Hills Chardonnay",
+        "note": {
+          "en": "A premium Napa Valley Chardonnay benchmark with broader appellation sourcing than Yountville.",
+          "zh": "高价纳帕谷霞多丽的参照，葡萄产区覆盖范围比扬特维尔更广。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/chardonnay/grgich-hills-chardonnay/p/1168750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/1168750/1168750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/chardonnay/grgich-hills-chardonnay/p/1168750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/79777.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "078473",
+      "name": "Reserve Cabernet Sauvignon Wahluke Slope 2022",
+      "type": "red",
+      "region": {
+        "en": "Wahluke Slope, Washington",
+        "zh": "华盛顿州瓦卢克坡"
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/078473",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/78473.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "078466",
+      "name": "Trading Post Cabernet Sauvignon of Napa Valley 2022",
+      "type": "red",
+      "region": {
+        "en": "Napa Valley, California",
+        "zh": "加州纳帕谷"
+      },
+      "price": 19.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/078466",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Cakebread Cabernet Sauvignon",
+        "note": {
+          "en": "A premium Napa Cabernet benchmark for comparison. Cakebread’s Napa Valley blend is broader than an individual district bottling.",
+          "zh": "可作高价纳帕谷赤霞珠的参照。Cakebread 的纳帕谷混酿覆盖范围比单一子产区酒款更广。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2341750/2341750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/78466.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "077191",
+      "name": "Gran Reserva Maule Valley Chile 2020",
+      "type": "red",
+      "region": {
+        "en": "Maule Valley, Chile",
+        "zh": "智利莫莱谷"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/077191",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/77191.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "077032",
+      "name": "Grand Reserve Pinot Noir Santa Lucia Highlands 2021 Lot #118",
+      "type": "red",
+      "region": {
+        "en": "Santa Lucia Highlands, California",
+        "zh": "加州圣卢西亚高地"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/077032",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Morgan Twelve Clones Pinot Noir",
+        "note": {
+          "en": "A Santa Lucia Highlands Pinot Noir from the same appellation. Morgan documents its vineyard and clone blend.",
+          "zh": "同属圣卢西亚高地的黑皮诺。Morgan 提供明确的葡萄园和克隆品系资料。"
+        },
+        "productUrl": "https://www.regalwine.com/wp-content/uploads/2018/08/TechSheet-2023-Twelve-Clones-Pinot-Noir.pdf"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Morgan Twelve Clones Pinot Noir",
+          "url": "https://www.regalwine.com/wp-content/uploads/2018/08/TechSheet-2023-Twelve-Clones-Pinot-Noir.pdf"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/77032.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "077884",
+      "name": "VINTJS Sonoma County Chardonnay 2021",
+      "type": "white",
+      "region": {
+        "en": "Sonoma County, California",
+        "zh": "加州索诺玛县"
+      },
+      "price": 8.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/077884",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Sonoma-Cutrer Russian River Ranches Chardonnay",
+        "note": {
+          "en": "A premium Sonoma Chardonnay comparison from Russian River Ranches, with a citrus-and-barrel-spice profile.",
+          "zh": "更高价的索诺玛霞多丽参考，来自俄罗斯河谷酒款系列，呈现柑橘与桶陈香料风味。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/chardonnay/sonomacutrer-chardonnay-russian-river/p/4410750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/4410750/4410750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/chardonnay/sonomacutrer-chardonnay-russian-river/p/4410750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/77884.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "076799",
+      "name": "Grand Reserve Cabernet Sauvignon Alexander Valley Lot #117",
+      "type": "red",
+      "region": {
+        "en": "Alexander Valley, California",
+        "zh": "加州亚历山大谷"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/076799",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Silver Oak Alexander Valley Cabernet Sauvignon",
+        "note": {
+          "en": "The same appellation and grape make this a useful comparison. Silver Oak has a distinctive American-oak profile.",
+          "zh": "产区和葡萄品种相同。Silver Oak 的美国橡木桶风格较鲜明。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/silver-oak-cabernet-sauvignon-alexander-valley/p/220638750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/220638750/220638750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/silver-oak-cabernet-sauvignon-alexander-valley/p/220638750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/76799.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "077840",
+      "name": "Rose & Finch Callifornia Red Wine 2021",
+      "type": "red",
+      "region": {
+        "en": "California",
+        "zh": "加州"
+      },
+      "price": 2.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/077840",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/77840.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "099106",
+      "name": "Dearly Beloved I Thee Red",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/099106",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/99106.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "076793",
+      "name": "Reserve Pinot Noir Santa Barbara County 2022",
+      "type": "red",
+      "region": {
+        "en": "Santa Barbara County, California",
+        "zh": "加州圣巴巴拉县"
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/076793",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Sanford Sta. Rita Hills Pinot Noir",
+        "note": {
+          "en": "Both are Santa Barbara County Pinot Noir. Sanford narrows its origin to the cool Sta. Rita Hills.",
+          "zh": "同为圣巴巴拉县黑皮诺。Sanford 来自气候凉爽、范围更窄的圣丽塔山。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/pinot-noir/sanford-pinot-noir-srh/p/3820750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/3820750/3820750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/pinot-noir/sanford-pinot-noir-srh/p/3820750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/76793.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "076797",
+      "name": "Grand Reserve Zinfandel Dry Creek Valley Sonoma 2021",
+      "type": "red",
+      "region": {
+        "en": "Sonoma County, California",
+        "zh": "加州索诺玛县"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/076797",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Seghesio Old Vine Zinfandel",
+        "note": {
+          "en": "A premium Sonoma Zinfandel benchmark, with the emphasis on old-vine sourcing.",
+          "zh": "高价索诺玛仙粉黛的参考，侧重老藤葡萄。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/zinfandel/seghesio-zinfandel-old-vines/p/8378750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/8378750/8378750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/zinfandel/seghesio-zinfandel-old-vines/p/8378750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/76797.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "075739",
+      "name": "Reserve Meritage Paso Robles 2021",
+      "type": "red",
+      "region": {
+        "en": "Paso Robles, California",
+        "zh": "加州帕索罗布尔斯"
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/075739",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "JUSTIN Isosceles",
+        "note": {
+          "en": "A higher-priced Paso Robles Bordeaux-style blend. The blend proportions and oak program are specific to Isosceles.",
+          "zh": "更高价的帕索罗布尔斯波尔多风格混酿。葡萄配比和用桶方式各有不同。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/justin-isosceles/p/11104750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/11104750/11104750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/justin-isosceles/p/11104750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/75739.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "067049",
+      "name": "Grand Reserve Cabernet Sauvignon Alexander Valley 2020",
+      "type": "red",
+      "region": {
+        "en": "Alexander Valley, California",
+        "zh": "加州亚历山大谷"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/067049",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Silver Oak Alexander Valley Cabernet Sauvignon",
+        "note": {
+          "en": "The same appellation and grape make this a useful comparison. Silver Oak has a distinctive American-oak profile.",
+          "zh": "产区和葡萄品种相同。Silver Oak 的美国橡木桶风格较鲜明。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/silver-oak-cabernet-sauvignon-alexander-valley/p/220638750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/220638750/220638750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/silver-oak-cabernet-sauvignon-alexander-valley/p/220638750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/67049.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "075412",
+      "name": "Platinum Reserve Brut Rosé Sonoma County",
+      "type": "sparkling",
+      "region": {
+        "en": "Sonoma County, California",
+        "zh": "加州索诺玛县"
+      },
+      "price": 14.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/075412",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Domaine Carneros Cuvée de la Pompadour Brut Rosé",
+        "note": {
+          "en": "A higher-priced California brut rosé. This Carneros bottling has its own Pinot Noir-led blend and house style.",
+          "zh": "价位更高的加州干型桃红起泡酒。这款卡内罗斯的配方以黑皮诺为主，酒庄风格鲜明。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/dom-carneros-rose-cuvee-de-la-pompadour/p/142261750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/142261750/142261750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/dom-carneros-rose-cuvee-de-la-pompadour/p/142261750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/75412.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "075339",
+      "name": "Diamond Reserve Cabernet Sauvignon Oakville Napa Valley 2020",
+      "type": "red",
+      "region": {
+        "en": "Oakville, Napa Valley",
+        "zh": "纳帕谷奥克维尔"
+      },
+      "price": 19.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/075339",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Nickel & Nickel Sullenger Vineyard Cabernet Sauvignon",
+        "note": {
+          "en": "An Oakville single-vineyard Cabernet for a closer appellation comparison.",
+          "zh": "可作更贴近产区的参考，同为奥克维尔赤霞珠，且标明单一葡萄园。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/nickel-nickel-cabernet-sauvignon-sullenger-vineyard/p/99937750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/99937750/99937750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/nickel-nickel-cabernet-sauvignon-sullenger-vineyard/p/99937750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/75339.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "061550",
+      "name": "Platinum Reserve Brut Sparkling Wine Sonoma County",
+      "type": "sparkling",
+      "region": {
+        "en": "Sonoma County, California",
+        "zh": "加州索诺玛县"
+      },
+      "price": 14.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/061550",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Domaine Carneros Brut",
+        "note": {
+          "en": "A richer California brut sparkling benchmark. Domaine Carneros is a vintage Carneros blend.",
+          "zh": "风格更丰富的加州干型起泡酒。Domaine Carneros 是标注年份的卡内罗斯混酿。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/domaine-carneros-brut/p/2652750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2652750/2652750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/domaine-carneros-brut/p/2652750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/61550.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "073657",
+      "name": "Reserve Cabernet Sauvignon Alexander Valley 2020",
+      "type": "red",
+      "region": {
+        "en": "Alexander Valley, California",
+        "zh": "加州亚历山大谷"
+      },
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/073657",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Silver Oak Alexander Valley Cabernet Sauvignon",
+        "note": {
+          "en": "The same appellation and grape make this a useful comparison. Silver Oak has a distinctive American-oak profile.",
+          "zh": "产区和葡萄品种相同。Silver Oak 的美国橡木桶风格较鲜明。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/silver-oak-cabernet-sauvignon-alexander-valley/p/220638750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/220638750/220638750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/silver-oak-cabernet-sauvignon-alexander-valley/p/220638750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/73657.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "094250",
+      "name": "Grand Reserve Pinot Noir Carneros Lot 23",
+      "type": "red",
+      "region": {
+        "en": "Carneros, California",
+        "zh": "加州卡内罗斯"
+      },
+      "price": 12.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/094250",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Etude Carneros Pinot Noir",
+        "note": {
+          "en": "A higher-priced Carneros Pinot Noir from the same appellation. Etude has its own estate sourcing and élevage.",
+          "zh": "同属卡内罗斯的高价黑皮诺。Etude 的葡萄来源和熟成方式各有特色。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/pinot-noir/etude-pinot-noir-carneros/p/94166750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/94166750/94166750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/pinot-noir/etude-pinot-noir-carneros/p/94166750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/94250.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "060349",
+      "name": "Platinum Reserve Pinot Noir Carneros 2022",
+      "type": "red",
+      "region": {
+        "en": "Carneros, California",
+        "zh": "加州卡内罗斯"
+      },
+      "price": 14.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/060349",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Etude Carneros Pinot Noir",
+        "note": {
+          "en": "A higher-priced Carneros Pinot Noir from the same appellation. Etude has its own estate sourcing and élevage.",
+          "zh": "同属卡内罗斯的高价黑皮诺。Etude 的葡萄来源和熟成方式各有特色。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/pinot-noir/etude-pinot-noir-carneros/p/94166750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/94166750/94166750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/pinot-noir/etude-pinot-noir-carneros/p/94166750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/60349.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "069628",
+      "name": "L'Eclat Brut Rosé",
+      "type": "sparkling",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 14.99,
+      "size": "1.5 L",
+      "url": "https://www.traderjoes.com/home/products/pdp/069628",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/69628.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "072002",
+      "name": "Ghost Vine Red Blend with Spices",
+      "type": "other",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 5.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/072002",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/72002.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "072218",
+      "name": "Villa Antica Asolo Prosecco DOCG Superiore",
+      "type": "sparkling",
+      "region": {
+        "en": "Italy",
+        "zh": "意大利"
+      },
+      "price": 8.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/072218",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "La Marca Luminore Prosecco DOCG",
+        "note": {
+          "en": "A higher-priced Prosecco from the Conegliano Valdobbiadene DOCG. Expect a floral, pear-led comparison with clearly specified origin.",
+          "zh": "来自科内利亚诺－瓦尔多比亚德内 DOCG 的高价普罗塞克，花香和梨香鲜明，产区更明确。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/la-marca-prosecco-luminore-docg/p/215789750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/215789750/215789750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/la-marca-prosecco-luminore-docg/p/215789750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/72218.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "072683",
+      "name": "Platinum Reserve Cabernet Sauvignon Napa Valley 2020",
+      "type": "red",
+      "region": {
+        "en": "Napa Valley, California",
+        "zh": "加州纳帕谷"
+      },
+      "price": 14.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/072683",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Cakebread Cabernet Sauvignon",
+        "note": {
+          "en": "A premium Napa Cabernet benchmark for comparison. Cakebread’s Napa Valley blend is broader than an individual district bottling.",
+          "zh": "可作高价纳帕谷赤霞珠的参照。Cakebread 的纳帕谷混酿覆盖范围比单一子产区酒款更广。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2341750/2341750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/cakebread-cabernet-sauvignon/p/2341750"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/72683.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "071769",
+      "name": "Lovely You Cabernet Sauvignon",
+      "type": "red",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 6.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/071769",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/71769.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "070152",
+      "name": "Cecilia Beretta Prosecco Rosé",
+      "type": "sparkling",
+      "region": {
+        "en": "Italy",
+        "zh": "意大利"
+      },
+      "price": 10.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/070152",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/70152.png/jcr:content/renditions/cq5dam.web.1280.1280"
+    },
+    {
+      "id": "063493",
+      "name": "Organic Charles Shaw Pinot Grigio",
+      "type": "white",
+      "region": {
+        "en": "",
+        "zh": ""
+      },
+      "price": 3.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/063493",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": {
+        "kind": "style",
+        "name": "Santa Margherita Pinot Grigio",
+        "note": {
+          "en": "A more expensive dry Pinot Grigio benchmark from northern Italy. It shares the grape, with a different regional sourcing.",
+          "zh": "来自意大利北部的高价干型灰皮诺，同葡萄品种，产区来源另有区别。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/pinot-grigiopinot-gris/santa-margherita-pinot-grigio/p/2596750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2596750/2596750-1-fr.png"
+      },
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/pinot-grigiopinot-gris/santa-margherita-pinot-grigio/p/2596750"
+        }
       ]
+    },
+    {
+      "id": "074557",
+      "name": "Petit Reserve Cabernet Franc Paso Robles 2021",
+      "type": "red",
+      "region": {
+        "en": "Paso Robles, California",
+        "zh": "加州帕索罗布尔斯"
+      },
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/074557",
+      "listed": "archive",
+      "officialNotes": {
+        "en": "",
+        "zh": ""
+      },
+      "reputation": {
+        "en": "",
+        "zh": ""
+      },
+      "comparison": null,
+      "score": null,
+      "rationale": {
+        "en": "",
+        "zh": ""
+      },
+      "sources": [],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/74557.png/jcr:content/renditions/cq5dam.web.1280.1280"
     }
   ]
 }
