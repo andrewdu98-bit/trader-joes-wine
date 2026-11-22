@@ -1,0 +1,72 @@
+name: Refresh and publish wine catalog
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish_snapshot_only:
+        description: Publish the saved catalog without fetching or calling AI
+        type: boolean
+        default: false
+      rerate_all:
+        description: Re-research every listing (uses more API calls)
+        type: boolean
+        default: false
+
+permissions: {}
+concurrency:
+  group: wine-catalog
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Fetch listings and run the AI researcher
+        if: ${{ !inputs.publish_snapshot_only }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          TJ_MEDIA_PERMISSION: ${{ vars.TJ_MEDIA_PERMISSION }}
+          RERATE_ALL: ${{ inputs.rerate_all }}
+        run: node scripts/refresh.mjs
+      - name: Save refreshed catalog
+        if: ${{ !inputs.publish_snapshot_only }}
+        run: |
+          if ! git diff --quiet -- site/data/wines.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add site/data/wines.json
+            git commit -m "Refresh wine catalog"
+            git push
+          fi
+      - name: Stage static files
+        run: |
+          mkdir -p dist/data
+          cp site/index.html site/styles.css site/app.js dist/
+          jq 'del(.research)' site/data/wines.json > dist/data/wines.json
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: publish
+        uses: actions/deploy-pages@v4

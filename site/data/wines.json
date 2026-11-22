@@ -1,0 +1,64 @@
+{
+  "coverage": "sample",
+  "updatedAt": null,
+  "wines": [
+    {
+      "id": "066649",
+      "name": "Opaline Pinot Noir Brut Rosé",
+      "type": "sparkling",
+      "region": {"en": "Southern France", "zh": "法国南部"},
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/066649",
+      "officialNotes": {"en": "A dry pink sparkler made entirely from Pinot Noir grown in southern France, with berry and floral notes.", "zh": "以法国南部的黑皮诺酿造的干型桃红起泡酒，带有浆果和花香。"},
+      "reputation": {"en": "Known for its ornate bottle and berry-driven style under $10. The Kitchn recommends it, while another tasting found the bubbles faded quickly.", "zh": "以精致的酒瓶、鲜明的浆果风味和不到 10 美元的售价受到关注。《The Kitchn》推荐这款酒，也有试饮者认为气泡消散较快。"},
+      "comparison": {"kind": "style", "name": "Gérard Bertrand Héritage An 825 Crémant de Limoux Brut Rosé", "note": {"en": "A more expensive southern French brut rosé to compare. Its blend and traditional-method production offer a different take on the style.", "zh": "同样来自法国南部的干型桃红起泡酒，价位更高。它采用混酿和传统法，呈现出不同的风格。"}},
+      "score": 81,
+      "confidence": "medium",
+      "rationale": {"en": "Distinctive fruit and strong value, with mixed impressions of the bubbles.", "zh": "果味鲜明、性价比好，气泡表现的评价有分歧。"},
+      "sources": [
+        {"role": "review", "label": "The Kitchn", "url": "https://www.thekitchn.com/the-best-trader-joes-wine-23786735"},
+        {"role": "review", "label": "Eat This, Not That! tasting", "url": "https://www.eatthis.com/trader-joes-wines-taste-test/"},
+        {"role": "comparison", "label": "Gérard Bertrand", "url": "https://www.gerard-bertrand.com/en/products/heritage-an-825-cremant-de-limoux-brut-rose-2022-75cl"}
+      ]
+    },
+    {
+      "id": "098693",
+      "name": "Picton Bay Sauvignon Blanc",
+      "type": "white",
+      "region": {"en": "Marlborough, New Zealand", "zh": "新西兰马尔堡"},
+      "price": 7.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/picton-bay-sauvignon-blanc-098693",
+      "officialNotes": {"en": "A crisp Marlborough Sauvignon Blanc with grassy aromatics, bright fruit and tart green-apple character.", "zh": "清爽的马尔堡长相思，带有青草香、明亮果味和青苹果般的酸度。"},
+      "reputation": {"en": "An inexpensive introduction to Marlborough Sauvignon Blanc. A tasting of the 2022 highlighted gooseberry, grapefruit and cut grass.", "zh": "适合低预算入门的马尔堡长相思。2022 年份的一篇品鉴记录提到醋栗、葡萄柚和青草香。"},
+      "comparison": {"kind": "style", "name": "Cloudy Bay Sauvignon Blanc", "note": {"en": "A pricier Marlborough benchmark built on the same grape and a bright citrus profile. Picton Bay is the simpler everyday option.", "zh": "同属马尔堡长相思，也有明亮的柑橘风味；云雾之湾价位更高，Picton Bay 则走简单易饮的日常路线。"}},
+      "score": 83,
+      "confidence": "low",
+      "rationale": {"en": "Classic regional character at a good price, based mainly on older tasting evidence.", "zh": "产区特色清晰，价格实惠，评分主要参考较早的品鉴资料。"},
+      "sources": [
+        {"role": "review", "label": "Girls Go Grape", "url": "https://girlsgogrape.com/2023/03/22/trader-joes-grocery-store-wine-challenge-palm-desert-california/"},
+        {"role": "comparison", "label": "Wine-Searcher", "url": "https://uploads.gocdn.us/123_8042_wine-searcher.com-The%20Busy%20Wine%20Lovers%20Guide%20to%20Cloudy%20Bay.pdf"}
+      ]
+    },
+    {
+      "id": "061916",
+      "name": "Corvelia Cabernet Sauvignon",
+      "type": "red",
+      "region": {"en": "Paso Robles, California", "zh": "加州帕索罗布尔斯"},
+      "price": 9.99,
+      "size": "750 mL",
+      "url": "https://www.traderjoes.com/home/products/pdp/corvelia-cabernet-sauvignon-061916",
+      "officialNotes": {"en": "A Paso Robles Cabernet with ripe dark fruit and a touch of tobacco in the retailer’s tasting description.", "zh": "来自帕索罗布尔斯的赤霞珠。官方品鉴描述提到成熟的深色水果和一丝烟草香。"},
+      "reputation": {"en": "A soft, fruit-forward Cabernet led by cherry and vanilla. Tastings disagree on how much structure it offers.", "zh": "口感柔和、果味突出的赤霞珠，以樱桃和香草风味为主。不同品鉴者对它的结构感评价不一。"},
+      "comparison": null,
+      "score": 80,
+      "confidence": "medium",
+      "rationale": {"en": "Appealing fruit and value, with less tannic grip than some Cabernet drinkers may expect.", "zh": "果味讨喜、性价比好，单宁力度较轻。"},
+      "sources": [
+        {"role": "review", "label": "Reverse Wine Snob", "url": "https://www.reversewinesnob.com/corvelia-cabernet-sauvignon"},
+        {"role": "review", "label": "San Francisco Chronicle", "url": "https://www.sfchronicle.com/food/wine/article/vivino-app-top-wines-17408037.php"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An independent guide to wines listed by Trader Joe’s, with sourced tasting notes and premium comparisons.">
+  <title>The Wine Aisle</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="masthead shell">
+    <a class="brand" href="./" data-copy="brand">The Wine Aisle</a>
+    <div class="languages" role="group" aria-label="Language">
+      <button type="button" data-language="en" lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-language="zh" lang="zh-Hans" aria-pressed="false">中文</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-labelledby="intro-title">
+      <div class="hero-copy">
+        <p class="eyebrow" data-copy="guide">An independent Trader Joe’s wine guide</p>
+        <h1 id="intro-title" data-copy="headline">Good wine.<br>Grocery prices.</h1>
+        <p class="intro" data-copy="intro">Find your next bottle with tasting notes, premium comparisons, and AI scores informed by published reviews.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="bottle bottle-white"><i></i></div>
+        <div class="bottle bottle-red"><i></i></div>
+        <div class="bottle bottle-rose"><i></i></div>
+      </div>
+    </section>
+
+    <section class="catalog shell" aria-labelledby="catalog-title">
+      <div class="catalog-heading">
+        <h2 id="catalog-title" data-copy="browse">Browse the aisle</h2>
+        <p id="coverage"></p>
+      </div>
+      <div class="controls">
+        <div class="filters" role="group" aria-label="Wine style"></div>
+        <label class="search"><span class="visually-hidden" data-copy="searchLabel">Search wines</span>
+          <input type="search" id="search" placeholder="Search wine or region">
+        </label>
+        <label class="sort"><span class="visually-hidden" data-copy="sortLabel">Sort wines</span>
+          <select id="sort">
+            <option value="score" data-copy="topRated">Highest rated</option>
+            <option value="price" data-copy="lowPrice">Lowest price</option>
+            <option value="name" data-copy="byName">Name A–Z</option>
+          </select>
+        </label>
+      </div>
+      <p class="count" id="count" role="status"></p>
+      <div class="wine-grid" id="wines"></div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <span data-copy="footer">Independent guide. Prices and availability vary by store.</span>
+    <a href="https://www.traderjoes.com/home/search?q=wine&amp;section=products&amp;global=no" data-copy="source">Trader Joe’s wine search</a>
+  </footer>
+
+  <dialog id="details" aria-labelledby="wine-title">
+    <form method="dialog"><button class="close" aria-label="Close">×</button></form>
+    <div id="detail-content"></div>
+  </dialog>
+
+  <template id="card">
+    <article class="wine-card">
+      <div class="wine-art" aria-hidden="true"><div class="bottle"><i></i></div></div>
+      <div class="wine-body">
+        <p class="wine-kicker"><span class="wine-style"></span><span class="wine-region"></span></p>
+        <h3></h3>
+        <p class="wine-notes"></p>
+        <div class="wine-meta"><span class="price"></span><span class="score"></span></div>
+        <button class="view" type="button"></button>
+      </div>
+    </article>
+  </template>
+</body>
+</html>

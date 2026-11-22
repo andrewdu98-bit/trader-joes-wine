@@ -1,0 +1,236 @@
+const copy = {
+  en: {
+    brand: "The Wine Aisle", guide: "An independent Trader Joe’s wine guide",
+    headline: ["Good wine.", "Grocery prices."],
+    intro: "Find your next bottle with tasting notes, premium comparisons, and AI scores informed by published reviews.",
+    browse: "Browse the aisle", searchLabel: "Search wines", search: "Search wine or region", sortLabel: "Sort wines",
+    topRated: "Highest rated", lowPrice: "Lowest price", byName: "Name A–Z",
+    footer: "Independent guide. Prices and availability vary by store.", source: "Trader Joe’s wine search",
+    sample: "Sample catalog", searchCoverage: "Official wine search", categoryCoverage: "Official online category",
+    updated: "Updated", all: "All wines", red: "Red", white: "White", rose: "Rosé", sparkling: "Sparkling", other: "Other wine",
+    count: (n) => `${n} ${n === 1 ? "wine" : "wines"}`,
+    loading: "Loading wines…", failed: "The wine catalog could not be loaded. Try refreshing this page.",
+    empty: "No wines match your filters.", view: "View wine details", unpriced: "Price unavailable",
+    score: "AI score", unrated: "Unrated", confidence: "Evidence confidence",
+    low: "Low", medium: "Moderate", high: "High", close: "Close",
+    officialNotes: "Tasting notes", officialDescription: "Trader Joe’s description", reputation: "What it’s known for",
+    confirmed: "Confirmed original bottling", possible: "Possible origin", style: "Premium style comparison",
+    noComparison: "No sourced premium comparison yet.", sources: "Sources", official: "Trader Joe’s product page",
+    review: "Review", comparison: "Comparison", origin: "Origin", language: "Language", wineStyle: "Wine style",
+  },
+  zh: {
+    brand: "葡萄酒货架", guide: "独立的 Trader Joe’s 葡萄酒指南",
+    headline: ["好酒入口，", "平价入手。"],
+    intro: "参考品鉴笔记、高价酒款对比和基于公开评论的 AI 评分，挑选下一瓶酒。",
+    browse: "浏览酒款", searchLabel: "搜索酒款", search: "搜索酒名或产区", sortLabel: "排序酒款",
+    topRated: "评分从高到低", lowPrice: "价格从低到高", byName: "按英文酒名排序",
+    footer: "独立指南。价格与供货因门店而异。", source: "Trader Joe’s 官方酒款搜索",
+    sample: "样本酒单", searchCoverage: "官方葡萄酒搜索", categoryCoverage: "官方线上分类",
+    updated: "更新于", all: "全部", red: "红葡萄酒", white: "白葡萄酒", rose: "桃红", sparkling: "起泡酒", other: "其他酒款",
+    count: (n) => `${n} 款酒`,
+    loading: "正在加载酒单…", failed: "酒单加载失败，请刷新页面重试。",
+    empty: "没有符合筛选条件的酒款。", view: "查看酒款详情", unpriced: "暂无价格",
+    score: "AI 评分", unrated: "暂无评分", confidence: "证据可信度",
+    low: "低", medium: "中", high: "高", close: "关闭",
+    officialNotes: "品鉴笔记", officialDescription: "Trader Joe’s 官方描述", reputation: "口碑与特色",
+    confirmed: "已证实的原版酒款", possible: "可能的来源", style: "高价同风格参考",
+    noComparison: "暂无有来源支持的高价参考酒款。", sources: "参考来源", official: "Trader Joe’s 官方产品页",
+    review: "品鉴评论", comparison: "对比参考", origin: "来源调查", language: "语言", wineStyle: "葡萄酒类型",
+  },
+};
+const $ = (selector) => document.querySelector(selector);
+const styleFilters = ["all", "red", "white", "rose", "sparkling", "other"];
+const browserLocales = { en: "en-US", zh: "zh-Hans" };
+const languages = [...document.querySelectorAll("[data-language]")];
+
+let language = "en";
+try { if (localStorage.getItem("wine-language") === "zh") language = "zh"; } catch {}
+let style = "all";
+let catalog;
+let loadFailed = false;
+let openWine;
+const words = () => copy[language];
+const localized = (value) => value?.[language] || "";
+const scoreText = (wine) => wine.score == null ? words().unrated : `${words().score} ${wine.score}/100`;
+const priceText = (wine) => wine.price == null ? words().unpriced :
+  new Intl.NumberFormat(browserLocales[language], { style: "currency", currency: "USD", currencyDisplay: "narrowSymbol" }).format(wine.price);
+
+function element(tag, value) {
+  const node = document.createElement(tag);
+  node.textContent = value;
+  return node;
+}
+
+function verifiedLink(label, url) {
+  try {
+    const parsed = new URL(url);
+    if (parsed.protocol !== "https:" || parsed.username || parsed.password) return null;
+    const link = element("a", label);
+    link.href = parsed.href;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    return link;
+  } catch {
+    return null;
+  }
+}
+
+function renderDetails(wine) {
+  const t = words();
+  const title = element("h2", wine.name);
+  title.id = "wine-title";
+  const body = [
+    title,
+    element("p", [t[wine.type], localized(wine.region), priceText(wine), wine.size].filter(Boolean).join(" · ")),
+    element("h3", t.officialNotes), element("p", localized(wine.officialNotes)),
+    element("h3", t.reputation), element("p", localized(wine.reputation)),
+    element("h3", wine.comparison ? t[wine.comparison.kind] : t.style),
+  ];
+  if (wine.comparison) {
+    body.push(element("strong", wine.comparison.name), element("p", localized(wine.comparison.note)));
+  } else {
+    body.push(element("p", t.noComparison));
+  }
+  body.push(element("h3", scoreText(wine)));
+  const rationale = localized(wine.rationale);
+  if (rationale) body.push(element("p", rationale));
+  if (wine.score != null) body.push(element("p", `${t.confidence} · ${t[wine.confidence]}`));
+  if (wine.description) {
+    const original = element("p", wine.description);
+    original.lang = "en";
+    body.push(element("h3", t.officialDescription), original);
+  }
+  const list = document.createElement("ul");
+  const sources = [{ label: t.official, url: wine.url }, ...wine.sources.filter((source) => source.role !== "official" || source.url !== wine.url)];
+  for (const source of sources) {
+    const label = source.role ? `${t[source.role]} · ${source.label}` : source.label;
+    const link = verifiedLink(label, source.url);
+    if (link) {
+      const item = document.createElement("li");
+      item.append(link);
+      list.append(item);
+    }
+  }
+  body.push(element("h3", t.sources), list);
+  $("#detail-content").replaceChildren(...body);
+}
+
+function renderCard(wine) {
+  const card = $("#card").content.cloneNode(true);
+  const art = card.querySelector(".wine-art");
+  art.dataset.style = wine.type;
+  if (wine.image && verifiedLink(wine.name, wine.image)) {
+    const image = document.createElement("img");
+    image.src = wine.image;
+    image.alt = wine.name;
+    image.loading = "lazy";
+    image.addEventListener("error", () => {
+      image.remove();
+      art.setAttribute("aria-hidden", "true");
+    });
+    art.removeAttribute("aria-hidden");
+    art.append(image);
+  }
+  card.querySelector(".wine-style").textContent = words()[wine.type];
+  card.querySelector(".wine-region").textContent = localized(wine.region);
+  card.querySelector("h3").textContent = wine.name;
+  card.querySelector(".wine-notes").textContent = localized(wine.officialNotes);
+  card.querySelector(".price").textContent = priceText(wine);
+  card.querySelector(".score").textContent = scoreText(wine);
+  const button = card.querySelector(".view");
+  button.textContent = words().view;
+  button.setAttribute("aria-label", `${words().view} · ${wine.name}`);
+  button.addEventListener("click", () => {
+    openWine = wine;
+    renderDetails(wine);
+    $("#details").showModal();
+  });
+  return card;
+}
+
+function renderCatalog() {
+  const t = words();
+  if (!catalog) {
+    $("#count").textContent = loadFailed ? t.failed : t.loading;
+    return;
+  }
+  const label = { sample: t.sample, search: t.searchCoverage, category: t.categoryCoverage }[catalog.coverage];
+  const updated = catalog.updatedAt && new Intl.DateTimeFormat(browserLocales[language], {
+    dateStyle: "medium", timeZone: "America/Detroit",
+  }).format(new Date(catalog.updatedAt));
+  $("#coverage").textContent = updated ? `${label} · ${t.updated} ${updated}` : label;
+  const query = $("#search").value.trim().toLowerCase();
+  const wines = catalog.wines.filter((wine) =>
+    (style === "all" || wine.type === style) &&
+    [wine.name, wine.region.en, wine.region.zh, t[wine.type]].join(" ").toLowerCase().includes(query)
+  );
+  const byName = (a, b) => a.name.localeCompare(b.name, "en");
+  const rankings = {
+    score: (a, b) => (b.score ?? -1) - (a.score ?? -1) || byName(a, b),
+    price: (a, b) => (a.price ?? Infinity) - (b.price ?? Infinity) || byName(a, b),
+    name: byName,
+  };
+  wines.sort(rankings[$("#sort").value]);
+  $("#count").textContent = wines.length ? t.count(wines.length) : t.empty;
+  $("#wines").replaceChildren(...wines.map(renderCard));
+}
+
+for (const value of styleFilters) {
+  const button = element("button", words()[value]);
+  button.type = "button";
+  button.dataset.style = value;
+  button.addEventListener("click", () => {
+    style = value;
+    updateFilters();
+    renderCatalog();
+  });
+  $(".filters").append(button);
+}
+
+function updateFilters() {
+  for (const button of $(".filters").children) {
+    button.textContent = words()[button.dataset.style];
+    button.setAttribute("aria-pressed", String(style === button.dataset.style));
+  }
+}
+
+function setLanguage() {
+  const t = words();
+  document.documentElement.lang = browserLocales[language];
+  document.title = t.brand;
+  for (const node of document.querySelectorAll("[data-copy]")) {
+    const value = t[node.dataset.copy];
+    if (Array.isArray(value)) node.replaceChildren(value[0], document.createElement("br"), value[1]);
+    else node.textContent = value;
+  }
+  for (const button of languages) button.setAttribute("aria-pressed", String(language === button.dataset.language));
+  $(".languages").setAttribute("aria-label", t.language);
+  $(".filters").setAttribute("aria-label", t.wineStyle);
+  $(".close").setAttribute("aria-label", t.close);
+  $("#search").placeholder = t.search;
+  updateFilters();
+  renderCatalog();
+  if ($("#details").open && openWine) renderDetails(openWine);
+}
+
+for (const button of languages) {
+  button.addEventListener("click", () => {
+    language = button.dataset.language;
+    try { localStorage.setItem("wine-language", language); } catch {}
+    setLanguage();
+  });
+}
+$("#search").addEventListener("input", renderCatalog);
+$("#sort").addEventListener("change", renderCatalog);
+$("#details").addEventListener("close", () => { openWine = undefined; });
+setLanguage();
+
+try {
+  const response = await fetch(new URL("./data/wines.json", import.meta.url));
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  catalog = await response.json();
+} catch (error) {
+  loadFailed = true;
+  console.error(error);
+}
+renderCatalog();
