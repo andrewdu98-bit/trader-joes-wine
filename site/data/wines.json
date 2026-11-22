@@ -1,6 +1,6 @@
 {
   "coverage": "snapshot",
-  "updatedAt": "2026-11-22T21:30:00Z",
+  "updatedAt": "2026-11-22T21:52:37Z",
   "archiveDate": "2026-10-10",
   "wines": [
     {
@@ -74,7 +74,8 @@
           "en": "A dry German Riesling reference from the Mosel, with a distinct slate-origin profile.",
           "zh": "德国摩泽尔干型雷司令的参考，呈现红板岩产区的特色。"
         },
-        "productUrl": "https://loosenbrosusa.com/wine/dr-loosen-red-slate-riesling-dry/"
+        "productUrl": "https://loosenbrosusa.com/wine/dr-loosen-red-slate-riesling-dry/",
+        "image": "https://loosenbrosusa.com/wp-content/uploads/2026/11/Dr-Loosen-Red-Slate-Riesling-Dry-2025-dLabel.png"
       },
       "score": null,
       "rationale": {
@@ -110,13 +111,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "DAOU Pessimist Paso Robles Red Blend",
+        "note": {
+          "en": "A richer-priced benchmark for a dark, fruit-forward California red blend. DAOU identifies Paso Robles sourcing and a different blend.",
+          "zh": "同属果味浓郁、颜色深的加州红混酿。DAOU 标明来自帕索罗布尔斯，混酿配比另有不同。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/red-blend/daou-pessimist-paso-robles-red-blend/p/196861750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/196861750/196861750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/red-blend/daou-pessimist-paso-robles-red-blend/p/196861750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/54813.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -183,13 +199,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Santa Margherita Pinot Grigio",
+        "note": {
+          "en": "A crisp white that highlights the Pinot Grigio side of Sauvigio. It comes from northern Italy and does not contain Sauvignon Blanc.",
+          "zh": "清爽的白葡萄酒，可对照 Sauvigio 中灰皮诺带来的风格。它来自意大利北部，未混入长相思。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/pinot-grigiopinot-gris/santa-margherita-pinot-grigio/p/2596750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2596750/2596750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/pinot-grigiopinot-gris/santa-margherita-pinot-grigio/p/2596750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/85461.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -256,13 +287,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Coppola Diamond Collection Claret",
+        "note": {
+          "en": "A Cabernet-led California blend for comparison with an everyday red. Claret has a more defined Bordeaux-style profile.",
+          "zh": "以赤霞珠为主的加州混酿，可与日常餐酒对照。Claret 的波尔多混酿风格更明确。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/coppola-diamond-claret/p/92115750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/92115750/92115750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/coppola-diamond-claret/p/92115750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/84977.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -285,13 +331,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Louis Bouillot Perle de Vigne Crémant de Bourgogne Brut",
+        "note": {
+          "en": "French white sparkling wine at a higher price per 750 mL. Louis Bouillot is an appellation-designated Crémant made by the traditional method.",
+          "zh": "按 750 毫升折算价格更高的法国白起泡酒。Louis Bouillot 是采用传统法酿造、明确标注产区的勃艮第克雷芒。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/louis-bouillot-perle-de-vigne-cremant-de-bourgogne-brut-sparkling-wine/p/93457750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/93457750/93457750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/louis-bouillot-perle-de-vigne-cremant-de-bourgogne-brut-sparkling-wine/p/93457750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/83835.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -622,13 +683,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Louis Latour Grand Ardèche Chardonnay",
+        "note": {
+          "en": "Another southern French white built around Chardonnay. Grand Ardèche uses oak and omits the Viognier in the Maison Barboulot blend.",
+          "zh": "同为以霞多丽为核心的法国南部白酒。Grand Ardèche 带橡木桶风格，不含 Maison Barboulot 混酿中的维欧尼。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/chardonnay/latour-chardonnay-grand-ardeche/p/3826750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/3826750/3826750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/chardonnay/latour-chardonnay-grand-ardeche/p/3826750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82328.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -651,14 +727,38 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "sameProducer",
+        "name": "Sunshine Mill 2016 Pinot Noir",
+        "note": {
+          "en": "A separate Pinot Noir sold by Sunshine Mill, the Oregon family operation behind the TJ vineyard bottling. The winery lists this older release separately.",
+          "zh": "Trader Joe’s 这款酒背后的俄勒冈家族酒庄 Sunshine Mill 另有一款高价黑皮诺，酒庄单独列出了这个较早的年份。"
+        },
+        "productUrl": "https://www.sunshinemill.com/wines",
+        "image": "https://static.wixstatic.com/media/9d5424_b9804fec2c934fb5a767fc758e4b1977~mv2.jpg"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
-      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82097.png/jcr:content/renditions/cq5dam.web.1280.1280"
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Sunshine Mill winery",
+          "url": "https://www.sunshinemill.com/wines"
+        },
+        {
+          "role": "origin",
+          "label": "Columbia Community Connection · winery owner interview",
+          "url": "https://columbiacommunityconnection.com/news-from-our-sponsors/sunshine-mill-harvests-a-big-win-trader-joes-renews-festival-throws-open-the-doors"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82097.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "originNotes": {
+        "en": "Winery owner James Martin identified the family’s The Dalles vineyard as the source of the 2023 Pinot Noir for Trader Joe’s.",
+        "zh": "酒庄负责人 James Martin 确认，Trader Joe’s 这款 2023 年黑皮诺的葡萄来自家族位于俄勒冈州 The Dalles 的葡萄园。"
+      }
     },
     {
       "id": "081937",
@@ -680,13 +780,33 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Málaga Virgen Moscatel Naranja",
+        "note": {
+          "en": "A specialty Spanish wine that also features real orange flavor. This Málaga Moscatel is sweet and still, so the comparison is about citrus character rather than bubbles.",
+          "zh": "同样突出真实橙香的西班牙特色酒。这款马拉加莫斯卡托是静态甜酒，适合对照柑橘风味和甜度。"
+        },
+        "productUrl": "https://www.bodegasmalagavirgen.com/producto/moscatel-naranja/?lang=en",
+        "image": "https://www.bodegasmalagavirgen.com/wp-content/uploads/2020/08/Miniatura-Moscatel-Naranja-monda-300x300.webp"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Bodegas Málaga Virgen",
+          "url": "https://www.bodegasmalagavirgen.com/producto/moscatel-naranja/?lang=en"
+        },
+        {
+          "role": "official",
+          "label": "Tarongino · Orange Frizzante",
+          "url": "https://tarongino.com/producto/frizzante-tarongino-naranja/"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81937.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -709,13 +829,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Gérard Bertrand Côte des Roses Rosé",
+        "note": {
+          "en": "A higher-priced dry pink wine from southern France. Its blend gives a useful contrast with the lighter everyday TJ rosé.",
+          "zh": "来自法国南部的高价干型桃红。它的混酿可与较轻盈的 Trader Joe’s 日常桃红对照。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/rose-blush-wine/rose-blend/bertrand-cote-des-roses-rose/p/163802750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/163802750/163802750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/rose-blush-wine/rose-blend/bertrand-cote-des-roses-rose/p/163802750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/79060.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -738,13 +873,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Villa Wolf Pinot Noir Rosé",
+        "note": {
+          "en": "A dry German Pinot Noir rosé on a higher price tier. Villa Wolf comes from Pfalz, whereas Emma Reichart is associated with Rheinhessen.",
+          "zh": "价位更高的德国干型黑皮诺桃红。Villa Wolf 来自普法尔茨，Emma Reichart 则与莱茵黑森产区相关。"
+        },
+        "productUrl": "https://loosenbrosusa.com/wine/villa-wolf-pinot-noir-rose/",
+        "image": "https://loosenbrosusa.com/wp-content/uploads/2026/11/Villa-Wolf-Pinot-Noir-Rose-2025-dLabel.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Loosen Bros USA · Villa Wolf",
+          "url": "https://loosenbrosusa.com/wine/villa-wolf-pinot-noir-rose/"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/60276.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -767,14 +917,43 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "sameProducer",
+        "name": "Poggio al Casone La Cattura Toscana",
+        "note": {
+          "en": "A higher-tier red from the same Tuscan estate. La Cattura is led by Teroldego, while the Governo bottling takes a different stylistic approach.",
+          "zh": "同一家托斯卡纳酒庄的高价红酒。La Cattura 以特罗德哥为主，与这款采用 Governo 风格的酒配方不同。"
+        },
+        "productUrl": "https://www.winetransit.com/wine/red-wine/red-blends/poggio-al-casone-la-cattura-750-ml-46752.html",
+        "image": "https://www.poggioalcasone.com/wp-content/uploads/2026/11/SUPT_Cattura_FakeEffect.292.webp"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
-      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/80806.png/jcr:content/renditions/cq5dam.web.1280.1280"
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "WineTransit · La Cattura",
+          "url": "https://www.winetransit.com/wine/red-wine/red-blends/poggio-al-casone-la-cattura-750-ml-46752.html"
+        },
+        {
+          "role": "origin",
+          "label": "Poggio al Casone · wine sheets",
+          "url": "https://www.poggioalcasone.com/en/wine-brochures/"
+        },
+        {
+          "role": "origin",
+          "label": "Vinopointer · Casone Toscana Governo",
+          "url": "https://vinopointer.com/theres-a-new-casone-in-town-at-tjs/"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/80806.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "originNotes": {
+        "en": "Poggio al Casone is the estate behind the Casone Toscana line. The wines listed here are separately named bottlings.",
+        "zh": "Casone Toscana 系列来自 Poggio al Casone 酒庄。这里的两款酒分别有独立的酒名。"
+      }
     },
     {
       "id": "080805",
@@ -796,13 +975,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Antinori Guado al Tasso Vermentino",
+        "note": {
+          "en": "Same Tuscan grape in a higher-tier Bolgheri bottling. Antinori gives a coastal, appellation-specific reference.",
+          "zh": "同为托斯卡纳维蒙蒂诺，Antinori 来自沿海的保格利，产区标示更具体、价位更高。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/vermentino/antinori-guado-al-tasso-vermentino/p/14879750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/14879750/14879750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/vermentino/antinori-guado-al-tasso-vermentino/p/14879750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/80805.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -869,13 +1063,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Bougrier Rosé d’Anjou",
+        "note": {
+          "en": "A higher-priced lightly sweet rosé with fresh berry flavors. It uses Loire varieties rather than California Zinfandel.",
+          "zh": "带新鲜浆果味的高价微甜桃红。它采用卢瓦尔品种，与加州仙粉黛的葡萄来源不同。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/rose-blush-wine/rose-blend/bougrier-rose-danjou/p/15384750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/15384750/15384750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/rose-blush-wine/rose-blend/bougrier-rose-danjou/p/15384750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/92700.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -898,13 +1107,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Penfolds Bin 28 Shiraz",
+        "note": {
+          "en": "A fuller-bodied expression of Shiraz around dark fruit and spice. Bin 28 is Australian and has a more structured oak profile.",
+          "zh": "同为设拉子，Bin 28 的深色果味、香料感和酒体更强，来自澳大利亚，橡木桶结构也更明显。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/syrahshiraz/penfolds-shiraz-kalimna-bin-28/p/10241750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/10241750/10241750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/syrahshiraz/penfolds-shiraz-kalimna-bin-28/p/10241750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/67809.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -927,13 +1151,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Dry Creek Vineyard Fumé Blanc",
+        "note": {
+          "en": "A higher-tier California Sauvignon Blanc emphasizing citrus and acidity, with more specific sourcing than the value bottling.",
+          "zh": "更高价的加州长相思，以柑橘风味和酸度见长，葡萄来源比平价款更具体。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/sauvignon-blanc/dry-creek-fume-blanc/p/4772750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/4772750/4772750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/sauvignon-blanc/dry-creek-fume-blanc/p/4772750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/49356.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -956,13 +1195,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Coppola Diamond Collection Claret",
+        "note": {
+          "en": "A Cabernet-led California blend for comparison with an everyday red. Claret has a more defined Bordeaux-style profile.",
+          "zh": "以赤霞珠为主的加州混酿，可与日常餐酒对照。Claret 的波尔多混酿风格更明确。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/coppola-diamond-claret/p/92115750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/92115750/92115750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/coppola-diamond-claret/p/92115750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/64259.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1073,13 +1327,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Wilson Creek Almond Sparkling",
+        "note": {
+          "en": "A close California style match because both are almond-flavored sparkling wines. Wilson Creek is the named Temecula Valley bottling.",
+          "zh": "同为加州杏仁风味起泡酒，是风格较接近的参考。Wilson Creek 是明确标注酒庄的特曼库拉酒款。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/wilson-creek-almond-sparkling/p/101360750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/101360750/101360750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/wilson-creek-almond-sparkling/p/101360750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81576.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1146,13 +1415,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Louis Jadot Beaujolais-Villages",
+        "note": {
+          "en": "A juicy French Gamay for comparison with young, fruit-forward red wine. Jadot is an appellation wine and is not marketed as Nouveau.",
+          "zh": "以鲜活果味见长的法国佳美，可与年轻果香型红酒对比。Jadot 有明确产区，酒款定位也不同于 Nouveau 新酒。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/gamay/jadot-beaujolais-villages/p/2555750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2555750/2555750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/gamay/jadot-beaujolais-villages/p/2555750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/67802.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1219,13 +1503,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Forte Incanto Susumaniello Salento",
+        "note": {
+          "en": "The same southern Italian grape and Salento origin. It is a separately branded benchmark for Susumaniello.",
+          "zh": "同为意大利南部萨伦托的苏苏马涅洛葡萄。Forte Incanto 提供独立品牌的同产区参考。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/red-blend/forte-incanto-susumaniello-salento-igp-rosso/p/219370750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/219370750/219370750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/red-blend/forte-incanto-susumaniello-salento-igp-rosso/p/219370750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/62109.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1255,7 +1554,8 @@
           "en": "Both are Langhe Nebbiolo. Perbacco is a more ambitious example with extended maturation.",
           "zh": "同为朗格内比奥罗。Perbacco 的熟成较长，可作高价参照。"
         },
-        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/nebbiolo/vietti-perbacco-nebbiolo/p/4630750"
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/nebbiolo/vietti-perbacco-nebbiolo/p/4630750",
+        "image": "https://www.vietti.com/public/file/bottiglie/-20250827173339-LANGHE-NEBBIOLO-PERBACCO-no-annata.png"
       },
       "score": null,
       "rationale": {
@@ -1291,13 +1591,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Sanford Sta. Rita Hills Pinot Noir",
+        "note": {
+          "en": "A higher-priced coastal Santa Barbara Pinot Noir. Sanford comes from Sta. Rita Hills, a different subregion from Caretaker’s Santa Maria Valley.",
+          "zh": "更高价的圣巴巴拉沿海黑皮诺。Sanford 来自圣丽塔山，与 Caretaker 的圣玛丽亚谷属于不同子产区。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/pinot-noir/sanford-pinot-noir-srh/p/3820750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/3820750/3820750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/pinot-noir/sanford-pinot-noir-srh/p/3820750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/99318.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1320,13 +1635,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Louis Jadot Bourgogne Pinot Noir",
+        "note": {
+          "en": "French Pinot Noir at a higher price tier. Burgundy provides a cooler-climate comparison for the Pays d’Oc bottling.",
+          "zh": "同为法国黑皮诺，价位更高。勃艮第可作为气候更凉爽的参照，与奥克地区的酒形成对比。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/pinot-noir/jadot-bourgogne-pinot-noir/p/4924750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/4924750/4924750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/pinot-noir/jadot-bourgogne-pinot-noir/p/4924750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/66788.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1349,13 +1679,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "La Crema Sonoma Coast Pinot Noir",
+        "note": {
+          "en": "A premium California Pinot Noir with a specified coastal appellation. It is a comparison for the grape and state, with a different sourcing profile.",
+          "zh": "标明沿海产区的高价加州黑皮诺，可对照同州同品种在不同产地的风格。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/pinot-noir/la-crema-sonoma-coast-pinot-noir/p/4057750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/4057750/4057750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/pinot-noir/la-crema-sonoma-coast-pinot-noir/p/4057750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/57636.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1510,13 +1855,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Winterlandschaft Glühwein",
+        "note": {
+          "en": "A higher-priced ready-to-warm Glühwein in the German holiday style, with its own seasoning recipe.",
+          "zh": "价位更高的德式节日热红酒，开瓶后可直接加热。两款酒的香料配方各有特色。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/dessert-fortified-wine/spiced-wine/winterlandschaft-gluhwein/p/2126223461",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/2126223461/2126223461-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/dessert-fortified-wine/spiced-wine/winterlandschaft-gluhwein/p/2126223461"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/66484.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1539,13 +1899,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Duckhorn Napa Valley Merlot",
+        "note": {
+          "en": "A more structured California Merlot benchmark from Napa Valley, which gives a narrower appellation and a richer style.",
+          "zh": "同为加州梅洛。Duckhorn 来自范围更窄的纳帕谷，结构更扎实，风味也更浓。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/merlot/duckhorn-merlot-napa/p/3809750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/3809750/3809750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/merlot/duckhorn-merlot-napa/p/3809750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/52436.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1568,13 +1943,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Sonoma-Cutrer Russian River Ranches Chardonnay",
+        "note": {
+          "en": "A premium California Chardonnay with a more clearly defined Sonoma origin and a citrus-and-barrel-spice profile.",
+          "zh": "更高价的加州霞多丽，产地明确为索诺玛，风味偏柑橘与桶陈香料。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/chardonnay/sonomacutrer-chardonnay-russian-river/p/4410750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/4410750/4410750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/chardonnay/sonomacutrer-chardonnay-russian-river/p/4410750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/52435.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1878,13 +2268,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Mer Soleil Silver Unoaked Chardonnay",
+        "note": {
+          "en": "A Californian Chardonnay that similarly emphasizes freshness over buttery oak. Mer Soleil uses stainless steel and concrete.",
+          "zh": "同样强调清新果味的加州霞多丽。Mer Soleil 用不锈钢和混凝土容器酿造，桶味更少。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/chardonnay/unoaked/mer-soleil-silver-chardonnay/p/112583750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/112583750/112583750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/chardonnay/unoaked/mer-soleil-silver-chardonnay/p/112583750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/61457.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1907,13 +2312,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Louis Bouillot Perle d’Aurore Crémant de Bourgogne Rosé",
+        "note": {
+          "en": "A French pink sparkling wine at a higher tier. Louis Bouillot is a Burgundy Crémant with appellation rules and traditional production.",
+          "zh": "高价的法国桃红起泡酒。Louis Bouillot 是遵循产区规定并以传统法酿造的勃艮第克雷芒。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/louis-bouillot-perle-daurore-cremant-de-bourgogne-sparkling-rose-wine/p/98321750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/98321750/98321750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/louis-bouillot-perle-daurore-cremant-de-bourgogne-sparkling-rose-wine/p/98321750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/72944.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1936,13 +2356,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Louis Bouillot Perle de Vigne Crémant de Bourgogne Brut",
+        "note": {
+          "en": "French white sparkling wine at a higher price per 750 mL. Louis Bouillot is an appellation-designated Crémant made by the traditional method.",
+          "zh": "按 750 毫升折算价格更高的法国白起泡酒。Louis Bouillot 是采用传统法酿造、明确标注产区的勃艮第克雷芒。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/louis-bouillot-perle-de-vigne-cremant-de-bourgogne-brut-sparkling-wine/p/93457750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/93457750/93457750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/louis-bouillot-perle-de-vigne-cremant-de-bourgogne-brut-sparkling-wine/p/93457750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/72893.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1965,13 +2400,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "E. Guigal Côtes du Rhône Rouge",
+        "note": {
+          "en": "A more expensive southern French red with a prominent Syrah component. The Rhône blend has a different set of supporting grapes.",
+          "zh": "同样突出西拉的高价法国南部红酒。罗讷河谷这款采用不同的混酿配方。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/rhone-blend/guigal-cotes-du-rhone-rouge/p/4715750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/4715750/4715750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/rhone-blend/guigal-cotes-du-rhone-rouge/p/4715750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/62771.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -1994,13 +2444,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Mionetto Prosecco Rosé",
+        "note": {
+          "en": "A higher-priced northeastern Italian sparkling rosé. Mionetto specifies Prosecco DOC and a Glera/Pinot Noir blend.",
+          "zh": "更高价的意大利东北部桃红起泡酒。Mionetto 是 Prosecco DOC，以歌蕾拉和黑皮诺混酿。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/rose/mionetto-prosecco-rose/p/236515750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/236515750/236515750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/rose/mionetto-prosecco-rose/p/236515750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/72130.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2111,13 +2576,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Louis Bouillot Perle de Vigne Crémant de Bourgogne Brut",
+        "note": {
+          "en": "French white sparkling wine at a higher price per 750 mL. Louis Bouillot is an appellation-designated Crémant made by the traditional method.",
+          "zh": "按 750 毫升折算价格更高的法国白起泡酒。Louis Bouillot 是采用传统法酿造、明确标注产区的勃艮第克雷芒。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/louis-bouillot-perle-de-vigne-cremant-de-bourgogne-brut-sparkling-wine/p/93457750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/93457750/93457750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/brut/louis-bouillot-perle-de-vigne-cremant-de-bourgogne-brut-sparkling-wine/p/93457750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/61644.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2234,13 +2714,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Masciarelli Marina Cvetic Montepulciano d’Abruzzo",
+        "note": {
+          "en": "The same grape and Abruzzo appellation. The Marina Cvetic wine comes from a higher producer tier with more extended oak maturation.",
+          "zh": "同葡萄品种且同属阿布鲁佐产区。Marina Cvetic 是更高阶的系列，橡木桶陈年也更长。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/montepulciano/masciarelli-marina-cvetic-montepulciano-dabruzzo/p/348673750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/348673750/348673750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/montepulciano/masciarelli-marina-cvetic-montepulciano-dabruzzo/p/348673750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/48838.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2263,13 +2758,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Gérard Bertrand Côte des Roses Rosé",
+        "note": {
+          "en": "A higher-priced dry pink wine from southern France. Its blend gives a useful contrast with the lighter everyday TJ rosé.",
+          "zh": "来自法国南部的高价干型桃红。它的混酿可与较轻盈的 Trader Joe’s 日常桃红对照。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/rose-blush-wine/rose-blend/bertrand-cote-des-roses-rose/p/163802750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/163802750/163802750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/rose-blush-wine/rose-blend/bertrand-cote-des-roses-rose/p/163802750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/87390.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2292,13 +2802,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Stella Rosa Peach",
+        "note": {
+          "en": "A higher-priced peach-flavored wine for the same juicy, sweet profile. It adds bubbles to the comparison.",
+          "zh": "价位更高的蜜桃风味甜酒，延续多汁香甜的风格，另有气泡。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/flavored-sparkling-wine/stella-rosa-peach/p/126453750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/126453750/126453750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/flavored-sparkling-wine/stella-rosa-peach/p/126453750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/70780.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2321,13 +2846,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Stella Rosa Watermelon",
+        "note": {
+          "en": "A higher-priced sweet watermelon-flavored comparison. The Stella Rosa is lightly sparkling.",
+          "zh": "同为甜型西瓜风味，Stella Rosa 价位更高，并带轻微气泡。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/muscatmoscato/stella-rosa-watermelon/p/224353750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/224353750/224353750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/muscatmoscato/stella-rosa-watermelon/p/224353750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/70782.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2350,13 +2890,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "E. Guigal Condrieu",
+        "note": {
+          "en": "An appellation benchmark for Viognier’s floral and stone-fruit character. Condrieu comes from the northern Rhône and is markedly richer.",
+          "zh": "维欧尼花香与核果风味的高端产区参照。孔德里约来自北罗讷河谷，酒体更浓厚。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/rhone-blend/guigal-condrieu/p/96672750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/96672750/96672750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/rhone-blend/guigal-condrieu/p/96672750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/69653.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2423,13 +2978,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Antinori Guado al Tasso Vermentino",
+        "note": {
+          "en": "A more costly Mediterranean Vermentino to compare with the Vermentino-led character. The Antinori is Italian and has no Sauvignon Blanc component.",
+          "zh": "更高价的地中海维蒙蒂诺，可用来对照这个品种的个性。Antinori 来自意大利，未混入长相思。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/vermentino/antinori-guado-al-tasso-vermentino/p/14879750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/14879750/14879750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/vermentino/antinori-guado-al-tasso-vermentino/p/14879750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/84627.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2596,13 +3166,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Beringer Knights Valley Cabernet Sauvignon",
+        "note": {
+          "en": "A higher-priced Sonoma County Cabernet from the narrower Knights Valley appellation, with firmer tannins.",
+          "zh": "同为索诺玛县赤霞珠。Beringer 来自范围更窄的骑士谷，价位更高，单宁更扎实。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/beringer-knights-valley-cabernet-sauvignon/p/1059750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/1059750/1059750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/beringer-knights-valley-cabernet-sauvignon/p/1059750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/82449.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2669,13 +3254,33 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Etude Carneros Pinot Noir",
+        "note": {
+          "en": "Same grape and Carneros appellation. Etude is a higher-tier estate reference with separately documented vineyard sourcing.",
+          "zh": "同为卡内罗斯黑皮诺。Etude 是更高价的庄园酒，有单独公开的葡萄园资料。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/pinot-noir/etude-pinot-noir-carneros/p/94166750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/94166750/94166750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/pinot-noir/etude-pinot-noir-carneros/p/94166750"
+        },
+        {
+          "role": "review",
+          "label": "Wine Enthusiast · Copilot 2023 Carneros",
+          "url": "https://www.wineenthusiast.com/buying-guide/copilot-2023-pinot-noir-carneros-napa-valley/"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81939.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2698,13 +3303,33 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Rombauer Carneros Chardonnay",
+        "note": {
+          "en": "Same grape and Carneros growing region. Rombauer presents a richer, creamier interpretation.",
+          "zh": "同为卡内罗斯霞多丽。Rombauer 的酒体更醇厚，奶油口感更突出。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/white-wine/chardonnay/rombauer-chardonnay/p/8875750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/8875750/8875750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/white-wine/chardonnay/rombauer-chardonnay/p/8875750"
+        },
+        {
+          "role": "official",
+          "label": "Trader Joe’s · Copilot Chardonnay 2023",
+          "url": "https://www.traderjoes.com/home/products/pdp/copilot-chardonnay-2023-081938"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81938.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2771,14 +3396,43 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "sameProducer",
+        "name": "Peachy Canyon Bailey Zinfandel",
+        "note": {
+          "en": "A higher-tier Adelaida District Zinfandel from the Beckett family’s Peachy Canyon winery. Bailey is a named vineyard bottling with a distinct vintage and vineyard identity.",
+          "zh": "贝克特家族旗下 Peachy Canyon 酒庄的高端 Adelaida District 仙粉黛。Bailey 有明确的葡萄园和年份。"
+        },
+        "productUrl": "https://www.wineenthusiast.com/buying-guide/peachy-canyon-2022-bailey-zinfandel-adelaida-district/",
+        "image": "https://cellar.db.wine/attachments/08ba7b3a-9414-4ab8-aa0f-3b307fcdd55b/bc87c2c7749f3907836a29e96fd6a6156ee50c9415a55bb5b764a3bc779d2713.jpg"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
-      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81266.png/jcr:content/renditions/cq5dam.web.1280.1280"
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Wine Enthusiast · Bailey 2022",
+          "url": "https://www.wineenthusiast.com/buying-guide/peachy-canyon-2022-bailey-zinfandel-adelaida-district/"
+        },
+        {
+          "role": "origin",
+          "label": "Reverse Wine Snob · Lot 265 back label",
+          "url": "https://www.reversewinesnob.com/trader-joes-reserve-paso-robles-adelaida-district-zinfandel/"
+        },
+        {
+          "role": "origin",
+          "label": "Peachy Canyon Winery",
+          "url": "https://www.peachycanyon.com/"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/81266.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "originNotes": {
+        "en": "2023 Lot 265 names Beckett Family as producer and bottler. The label does not identify Bailey Vineyard or establish a shared lot.",
+        "zh": "2023 年 Lot 265 背标注明由 Beckett Family 酿造并装瓶。公开资料未确认该批次使用 Bailey 葡萄园的葡萄。"
+      }
     },
     {
       "id": "061916",
@@ -2899,13 +3553,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Coppola Diamond Collection Claret",
+        "note": {
+          "en": "A richer California red-blend reference with Cabernet and Malbec in a Bordeaux-style blend. Sangiovese gives Super Happy a different mix.",
+          "zh": "高价的加州红混酿参考，含赤霞珠和马尔贝克，偏波尔多风格。Super Happy 另加入桑娇维塞。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/coppola-diamond-claret/p/92115750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/92115750/92115750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/coppola-diamond-claret/p/92115750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/80813.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2928,13 +3597,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Oliver Apple Pie",
+        "note": {
+          "en": "A higher-priced seasonal dessert-wine comparison for baking-spice character. Oliver uses an apple-wine base, so the comparison is about flavor.",
+          "zh": "价位更高的季节性甜酒，适合对照烘焙香料的风味。Oliver 的基酒是苹果酒。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/fruit-wine/fruit-blends/oliver-apple-pie/p/177584750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/177584750/177584750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/fruit-wine/fruit-blends/oliver-apple-pie/p/177584750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/79524.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2957,13 +3641,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Obsidian Ridge Cabernet Sauvignon",
+        "note": {
+          "en": "Same Red Hills Lake County appellation and lead grape. Obsidian Ridge is a higher-tier mountain vineyard expression.",
+          "zh": "同属红山湖县产区，以赤霞珠为主。Obsidian Ridge 是更高阶的山地葡萄园酒。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/obsidian-ridge-cabernet-sauvignon/p/110795750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/110795750/110795750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/obsidian-ridge-cabernet-sauvignon/p/110795750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/76075.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -2986,14 +3685,38 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Pax Sonoma Hillsides Syrah",
+        "note": {
+          "en": "Sonoma County Syrah at a higher tier. Pax makes a hillside blend using whole clusters and concrete.",
+          "zh": "同为索诺玛县西拉。Pax 的山坡混酿采用整串发酵和混凝土容器。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/syrahshiraz/pax-sonoma-hillsides-syrah/p/223679750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/223679750/223679750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
-      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/79632.png/jcr:content/renditions/cq5dam.web.1280.1280"
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/syrahshiraz/pax-sonoma-hillsides-syrah/p/223679750"
+        },
+        {
+          "role": "origin",
+          "label": "CheapWineFinder · 2022 bottle",
+          "url": "https://cheapwinefinder.com/trader-joes-grand-reserve-sonoma-county-syrah-2022/08/2024/"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/79632.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "originNotes": {
+        "en": "The 2022 bottle was attributed to custom producer Bozzano & Co. The exact vineyard and lot are undocumented in the sources consulted.",
+        "zh": "2022 年份的品鉴资料把酿造方指向定制酒商 Bozzano & Co.。现有资料未公开葡萄园和批次号。"
+      }
     },
     {
       "id": "079777",
@@ -3059,14 +3782,43 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "LUKE Wahluke Slope Cabernet Sauvignon",
+        "note": {
+          "en": "Same Washington appellation and lead grape. LUKE documents a multi-vineyard blend and uses both French and American oak.",
+          "zh": "同为华盛顿州瓦卢克坡、以赤霞珠为主。LUKE 公开了混酿的葡萄园来源，并使用法国和美国橡木桶。"
+        },
+        "productUrl": "https://www.wine.com/product/luke-cabernet-sauvignon-2021/2388674",
+        "image": "https://assets.wine.com/winecom/image/upload/w_600,h_400,dpr_2.0,c_fit,f_auto,q_auto:good,fl_progressive/blsvwa0mo3boeiazjgru.jpg"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
-      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/78473.png/jcr:content/renditions/cq5dam.web.1280.1280"
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Wine.com · LUKE 2021",
+          "url": "https://www.wine.com/product/luke-cabernet-sauvignon-2021/2388674"
+        },
+        {
+          "role": "origin",
+          "label": "Reverse Wine Snob · Lot 253 back label",
+          "url": "https://www.reversewinesnob.com/trader-joes-reserve-columbia-valley-wahluke-slope-cabernet-sauvignon"
+        },
+        {
+          "role": "comparison",
+          "label": "LUKE · 2021 technical sheet",
+          "url": "https://www.foliowine.com/wp-content/uploads/2024/02/Luke-Cabernet-Sauvignon-2021-ts.pdf"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/78473.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "originNotes": {
+        "en": "2022 Lot 253 names DNA Vineyards for vinting and bottling. This identifies the bottler without naming individual vineyards.",
+        "zh": "2022 年 Lot 253 背标注明由 DNA Vineyards 整理酒液并装瓶，未披露具体葡萄园。"
+      }
     },
     {
       "id": "078466",
@@ -3132,13 +3884,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Gillmore Collezione del Maule 2020",
+        "note": {
+          "en": "A higher-tier Chilean red from the same Maule Valley and vintage. Gillmore’s blend has its own vineyard and composition.",
+          "zh": "同来自智利莫莱谷、同为 2020 年份的高价红酒。Gillmore 有自己的葡萄园来源和混酿配比。"
+        },
+        "productUrl": "https://www.wine.com/product/gillmore-collezione-del-maule-2020/1268564",
+        "image": "https://assets.wine.com/winecom/image/upload/w_600,h_400,dpr_2.0,c_fit,f_auto,q_auto:good,fl_progressive/lynwndmpcbfbbfrxybhx.jpg"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Wine.com · Gillmore 2020",
+          "url": "https://www.wine.com/product/gillmore-collezione-del-maule-2020/1268564"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/77191.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -3168,7 +3935,9 @@
           "en": "A Santa Lucia Highlands Pinot Noir from the same appellation. Morgan documents its vineyard and clone blend.",
           "zh": "同属圣卢西亚高地的黑皮诺。Morgan 提供明确的葡萄园和克隆品系资料。"
         },
-        "productUrl": "https://www.regalwine.com/wp-content/uploads/2018/08/TechSheet-2023-Twelve-Clones-Pinot-Noir.pdf"
+        "productUrl": "https://www.regalwine.com/wp-content/uploads/2018/08/TechSheet-2023-Twelve-Clones-Pinot-Noir.pdf",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/4378750/4378750-1-fr.png",
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/pinot-noir/morgan-pinot-noir-twelve-clones/p/4378750"
       },
       "score": null,
       "rationale": {
@@ -3180,6 +3949,11 @@
           "role": "comparison",
           "label": "Morgan Twelve Clones Pinot Noir",
           "url": "https://www.regalwine.com/wp-content/uploads/2018/08/TechSheet-2023-Twelve-Clones-Pinot-Noir.pdf"
+        },
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/pinot-noir/morgan-pinot-noir-twelve-clones/p/4378750"
         }
       ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/77032.png/jcr:content/renditions/cq5dam.web.1280.1280"
@@ -3292,13 +4066,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Coppola Diamond Collection Claret",
+        "note": {
+          "en": "A Cabernet-led California blend for comparison with an everyday red. Claret has a more defined Bordeaux-style profile.",
+          "zh": "以赤霞珠为主的加州混酿，可与日常餐酒对照。Claret 的波尔多混酿风格更明确。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/coppola-diamond-claret/p/92115750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/92115750/92115750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/coppola-diamond-claret/p/92115750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/77840.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -3321,13 +4110,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Coppola Diamond Collection Claret",
+        "note": {
+          "en": "A Cabernet-led California blend for comparison with an everyday red. Claret has a more defined Bordeaux-style profile.",
+          "zh": "以赤霞珠为主的加州混酿，可与日常餐酒对照。Claret 的波尔多混酿风格更明确。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/coppola-diamond-claret/p/92115750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/92115750/92115750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/coppola-diamond-claret/p/92115750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/99106.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -3790,13 +4594,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "J Vineyards Brut Rosé",
+        "note": {
+          "en": "A higher-tier dry pink sparkling wine with a traditional-method California profile. The price comparison is per 750 mL.",
+          "zh": "价位更高的干型桃红起泡酒，呈现加州传统法风格。价格按 750 毫升折算。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/j-vineyards-sparkling-rose/p/98795750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/98795750/98795750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/sparkling-wine/rose/j-vineyards-sparkling-rose/p/98795750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/69628.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -3819,13 +4638,27 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Winzerwald Glühwein",
+        "note": {
+          "en": "A higher-priced recipe-driven spiced red wine. Winzerwald is sold as Glühwein for warming, a useful contrast with the spiced red blend.",
+          "zh": "价位更高、同样以香料为特色的红酒。Winzerwald 属于适宜加热的 Glühwein，可对照这款香料混酿。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/red-blend/winzerwald-gluhwein/p/233272750"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/red-blend/winzerwald-gluhwein/p/233272750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/72002.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -3936,13 +4769,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Beringer Knights Valley Cabernet Sauvignon",
+        "note": {
+          "en": "A full-bodied California Cabernet comparison with firmer tannins and a named Sonoma subregion. The comparison is about grape and regional style.",
+          "zh": "同为加州赤霞珠，可对照更饱满的酒体和更扎实的单宁。Beringer 还标明了索诺玛骑士谷子产区。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/beringer-knights-valley-cabernet-sauvignon/p/1059750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/1059750/1059750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/beringer-knights-valley-cabernet-sauvignon/p/1059750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/71769.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -3965,13 +4813,28 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "Mionetto Prosecco Rosé",
+        "note": {
+          "en": "A higher-priced northeastern Italian sparkling rosé. Mionetto specifies Prosecco DOC and a Glera/Pinot Noir blend.",
+          "zh": "更高价的意大利东北部桃红起泡酒。Mionetto 是 Prosecco DOC，以歌蕾拉和黑皮诺混酿。"
+        },
+        "totalWineUrl": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/rose/mionetto-prosecco-rose/p/236515750",
+        "image": "https://www.totalwine.com/dynamic/x1000,sq/images/236515750/236515750-1-fr.png"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "Total Wine & More",
+          "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/prosecco/rose/mionetto-prosecco-rose/p/236515750"
+        }
+      ],
       "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/70152.png/jcr:content/renditions/cq5dam.web.1280.1280"
     },
     {
@@ -4037,14 +4900,43 @@
         "en": "",
         "zh": ""
       },
-      "comparison": null,
+      "comparison": {
+        "kind": "style",
+        "name": "J. Wilkes Paso Robles Highlands District Cabernet Franc",
+        "note": {
+          "en": "Same grape, 2021 vintage and wider Paso Robles region. J. Wilkes is a Miller Family brand and specifies the Highlands District. There is no documented shared lot.",
+          "zh": "同为 2021 年帕索罗布尔斯品丽珠。J. Wilkes 属于 Miller Family，且标明来自 Highlands District，暂无证据表明是同一批次。"
+        },
+        "productUrl": "https://cawineclub.com/collections/the-california-wine-club/products/j-wilkes-cabernet-franc-highlands-district-paso-robles-ca-2021",
+        "image": "https://cawineclub.com/cdn/shop/files/J._Wilkes_Cabernet_Franc_Highlands_District_Paso_Robles_CA_2021_d6609867-dcf3-4bab-ac3a-857c2e07ae9b.png?v=1758190168"
+      },
       "score": null,
       "rationale": {
         "en": "",
         "zh": ""
       },
-      "sources": [],
-      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/74557.png/jcr:content/renditions/cq5dam.web.1280.1280"
+      "sources": [
+        {
+          "role": "comparison",
+          "label": "The California Wine Club · J. Wilkes 2021",
+          "url": "https://cawineclub.com/collections/the-california-wine-club/products/j-wilkes-cabernet-franc-highlands-district-paso-robles-ca-2021"
+        },
+        {
+          "role": "origin",
+          "label": "CheapWineFinder · 2021 back label",
+          "url": "https://cheapwinefinder.com/trader-joes-petit-reserve-paso-robles-cabernet-franc-2021/10/2022/"
+        },
+        {
+          "role": "comparison",
+          "label": "J. Wilkes · Miller Family Wine Company",
+          "url": "https://jwilkes.com/wines/paso-robles-highlands-district-cabernet-franc/"
+        }
+      ],
+      "image": "https://www.traderjoes.com/content/dam/trjo/products/m306/wine/74557.png/jcr:content/renditions/cq5dam.web.1280.1280",
+      "originNotes": {
+        "en": "The back label lists Miller Family as cellarer and bottler. The vineyard and lot were not verified.",
+        "zh": "背标注明由 Miller Family 窖藏并装瓶，葡萄园及批次尚未核实。"
+      }
     }
   ]
 }

@@ -108,6 +108,7 @@ const schema = object({
   region: bilingual,
   officialNotes: bilingual,
   reputation: bilingual,
+  originNotes: nullable(bilingual),
   comparison: nullable(object({
     kind: enumeration("confirmed", "possible", "sameProducer", "style"), name: text, note: bilingual,
     totalWineUrl: nullable(text), productUrl: nullable(text), image: nullable(text),
@@ -149,6 +150,7 @@ async function research(listing) {
     listing.url,
   ].map((url) => httpsUrl(url)).filter(Boolean));
   wine.sources = wine.sources.filter((source) => consulted.has(httpsUrl(source.url)));
+  if (!wine.sources.some((source) => source.role === "origin")) wine.originNotes = null;
   if (wine.score !== null && !wine.sources.some((source) => source.role === "review")) {
     wine.score = null;
     wine.confidence = "low";
@@ -234,9 +236,22 @@ async function refresh() {
     if (analysis.wine.type === "exclude") continue;
     const { description: _description, image: _image, ...facts } = listing;
     const wine = { ...facts, ...analysis.wine, listed: "current", image: image || previousWine?.image };
-    if (!wine.comparison && previousWine?.name === wine.name && previousWine.comparison) {
-      wine.comparison = previousWine.comparison;
-      wine.sources = [...wine.sources, ...previousWine.sources.filter((source) => ["comparison", "origin"].includes(source.role))];
+    if (previousWine?.name === wine.name) {
+      const preservedRoles = new Set();
+      const evidenceRank = { style: 0, possible: 1, sameProducer: 2, confirmed: 3 };
+      if (previousWine.comparison && (!wine.comparison ||
+          evidenceRank[previousWine.comparison.kind] > evidenceRank[wine.comparison.kind])) {
+        wine.comparison = previousWine.comparison;
+        preservedRoles.add("comparison");
+        preservedRoles.add("origin");
+      }
+      if (previousWine.originNotes && !wine.originNotes) {
+        wine.originNotes = previousWine.originNotes;
+        preservedRoles.add("origin");
+      }
+      const seen = new Set(wine.sources.map((source) => source.url));
+      wine.sources = [...wine.sources, ...previousWine.sources.filter((source) =>
+        preservedRoles.has(source.role) && !seen.has(source.url))];
     }
     if (includeOfficialCopy && description) wine.description = description;
     wines.push(wine);

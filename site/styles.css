@@ -162,3 +162,9 @@ dialog ul { padding-left: 21px; }
 .comparison-panel a { display: inline-block; margin-top: 8px; }
 .comparison-note { color: var(--muted); font-size: .91rem; }
 #detail-content > a { display: inline-block; margin-top: 8px; }
+
+.card-comparison { display: grid; gap: 4px; width: 100%; text-align: left; margin: auto 0 13px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: #f9eee8; color: var(--wine); }
+.card-comparison[hidden] { display: none; }
+.card-comparison span { font-size: .82rem; }
+.card-comparison strong { font-size: .94rem; font-weight: 650; }
+.card-comparison:hover strong { text-decoration: underline; }

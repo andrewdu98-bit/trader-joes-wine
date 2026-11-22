@@ -9,8 +9,9 @@ const copy = {
     sample: "Sample catalog", snapshot: "Official listings and catalog archive",
     reserveOnly: "Trader Joe’s Reserve", archive: "Archived listing", reserve: "Reserve",
     petit: "Petit Reserve", grand: "Grand Reserve", platinum: "Platinum Reserve", diamond: "Diamond Reserve", growers: "Grower’s Reserve",
-    totalWine: "View at Total Wine", viewProducer: "View comparison wine", pendingNotes: "Tasting notes pending", currentOnly: "Currently listed",
-    styleNote: "Comparable in style. An origin link is unconfirmed.", searchCoverage: "Official wine search", categoryCoverage: "Official online category",
+    premiumPick: "Premium comparison", comparisonCount: (n) => `${n} premium comparisons`, originDetails: "Producer and lot evidence",
+    totalWine: "View at Total Wine", viewProducer: "View comparison wine", currentOnly: "Currently listed",
+    styleNote: "Comparable in style. An origin link is unconfirmed.", producerNote: "Separate bottling. A shared lot has not been established.", searchCoverage: "Official wine search", categoryCoverage: "Official online category",
     updated: "Updated", all: "All wines", red: "Red", white: "White", rose: "Rosé", sparkling: "Sparkling", other: "Other wine",
     count: (n) => `${n} ${n === 1 ? "wine" : "wines"}`,
     loading: "Loading wines…", failed: "The wine catalog could not be loaded. Try refreshing this page.",
@@ -32,8 +33,9 @@ const copy = {
     sample: "样本酒单", snapshot: "官网在列与历史目录",
     reserveOnly: "Trader Joe’s Reserve 系列", archive: "历史目录", reserve: "Reserve",
     petit: "Petit Reserve", grand: "Grand Reserve", platinum: "Platinum Reserve", diamond: "Diamond Reserve", growers: "Grower’s Reserve",
-    totalWine: "查看 Total Wine 商品页", viewProducer: "查看参考酒款", pendingNotes: "品鉴笔记待补充", currentOnly: "仅看当前在列",
-    styleNote: "同风格参考，尚无证据表明两款酒同源。", searchCoverage: "官方葡萄酒搜索", categoryCoverage: "官方线上分类",
+    premiumPick: "高端参考", comparisonCount: (n) => `${n} 款附高端对比`, originDetails: "酒庄与批次线索",
+    totalWine: "查看 Total Wine 商品页", viewProducer: "查看参考酒款", currentOnly: "仅看当前在列",
+    styleNote: "同风格参考，尚无证据表明两款酒同源。", producerNote: "独立酒款，尚无证据表明两款酒属于同一批次。", searchCoverage: "官方葡萄酒搜索", categoryCoverage: "官方线上分类",
     updated: "更新于", all: "全部", red: "红葡萄酒", white: "白葡萄酒", rose: "桃红", sparkling: "起泡酒", other: "其他酒款",
     count: (n) => `${n} 款酒`,
     loading: "正在加载酒单…", failed: "酒单加载失败，请刷新页面重试。",
@@ -114,6 +116,9 @@ function renderDetails(wine) {
   for (const key of ["officialNotes", "reputation"]) {
     if (localized(wine[key])) body.push(element("h3", t[key]), element("p", localized(wine[key])));
   }
+  if (localized(wine.originNotes)) {
+    body.push(element("h3", t.originDetails), element("p", localized(wine.originNotes)));
+  }
   body.push(element("h3", wine.comparison ? t[wine.comparison.kind] : t.style));
   if (wine.comparison) {
     const comparison = wine.comparison;
@@ -126,8 +131,8 @@ function renderDetails(wine) {
     }
     const summary = element("div", "");
     summary.append(element("strong", comparison.name), element("p", localized(comparison.note)));
-    if (comparison.kind === "style") {
-      const note = element("p", t.styleNote);
+    if (comparison.kind === "style" || comparison.kind === "sameProducer") {
+      const note = element("p", comparison.kind === "style" ? t.styleNote : t.producerNote);
       note.className = "comparison-note";
       summary.append(note);
     }
@@ -184,7 +189,13 @@ function renderCard(wine) {
   tier.hidden = !labels.length;
   tier.textContent = labels.join(" · ");
   const notes = card.querySelector(".wine-notes");
-  notes.textContent = localized(wine.officialNotes) || localized(wine.reputation) || localized(wine.comparison?.note) || words().pendingNotes;
+  notes.textContent = localized(wine.officialNotes) || localized(wine.reputation);
+  notes.hidden = !notes.textContent;
+  const comparison = card.querySelector(".card-comparison");
+  if (wine.comparison) {
+    comparison.hidden = false;
+    comparison.append(element("span", words().premiumPick), element("strong", wine.comparison.name));
+  }
   const official = card.querySelector(".official-link");
   if (verifiedLink(wine.name, wine.url)) {
     official.href = wine.url;
@@ -196,11 +207,13 @@ function renderCard(wine) {
   const button = card.querySelector(".view");
   button.textContent = words().view;
   button.setAttribute("aria-label", `${words().view} · ${wine.name}`);
-  button.addEventListener("click", () => {
+  const showWine = () => {
     openWine = wine;
     renderDetails(wine);
     $("#details").showModal();
-  });
+  };
+  button.addEventListener("click", showWine);
+  comparison.addEventListener("click", showWine);
   return card;
 }
 
@@ -212,7 +225,7 @@ function renderCatalog() {
   }
   const label = { sample: t.sample, search: t.searchCoverage, category: t.categoryCoverage, snapshot: t.snapshot }[catalog.coverage];
   const updated = catalog.updatedAt && new Intl.DateTimeFormat(browserLocales[language], {
-    dateStyle: "medium", timeZone: "America/Detroit",
+    dateStyle: "medium", timeStyle: "short", timeZone: "America/Detroit",
   }).format(new Date(catalog.updatedAt));
   $("#coverage").textContent = updated ? `${label} · ${t.updated} ${updated}` : label;
   const query = $("#search").value.trim().toLowerCase();
@@ -220,7 +233,7 @@ function renderCatalog() {
     (style === "all" || wine.type === style) &&
     (!$("#reserve").checked || reserveTier(wine)) &&
     (!$("#current-only").checked || wine.listed !== "archive") &&
-    [wine.name, wine.region?.en, wine.region?.zh, t[wine.type], t[reserveTier(wine)], wine.comparison?.name, wine.id].join(" ").toLowerCase().includes(query)
+    [wine.name, wine.region?.en, wine.region?.zh, t[wine.type], t[reserveTier(wine)], wine.comparison?.name, wine.originNotes?.en, wine.originNotes?.zh, wine.id].join(" ").toLowerCase().includes(query)
   );
   const byName = (a, b) => a.name.localeCompare(b.name, "en");
   const rankings = {
@@ -230,7 +243,8 @@ function renderCatalog() {
     name: byName,
   };
   wines.sort(rankings[$("#sort").value]);
-  $("#count").textContent = wines.length ? t.count(wines.length) : t.empty;
+  const compared = wines.filter((wine) => wine.comparison).length;
+  $("#count").textContent = wines.length ? [t.count(wines.length), compared && t.comparisonCount(compared)].filter(Boolean).join(" · ") : t.empty;
   $("#wines").replaceChildren(...wines.map(renderCard));
 }
 
@@ -287,7 +301,9 @@ $("#details").addEventListener("close", () => { openWine = undefined; });
 setLanguage();
 
 try {
-  const response = await fetch(new URL("./data/wines.json", import.meta.url));
+  const catalogUrl = new URL("./data/wines.json", import.meta.url);
+  catalogUrl.search = new URL(import.meta.url).search;
+  const response = await fetch(catalogUrl, { cache: "no-cache" });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   catalog = await response.json();
 } catch (error) {
